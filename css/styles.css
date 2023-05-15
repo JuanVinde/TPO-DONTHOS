@@ -1,0 +1,382 @@
+/* paleta 1  #d6680b para detalles, #ffffff fondo y demas, #0054dc botones de accion y #424242 para letras
+color gris para fondo #ededed
+paleta 2 #1e6ba2 letras, #be8b09 detalles, #fffff fondo y #68757b botones y demas
+paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 botones*/
+
+:root{
+    --negro: #999;
+    --cletra: #3c3c3d;
+    --cfondo: #0094da;
+    --cfondo1: #e8edf18e;
+    /* --cfondo1: #57585c; */
+
+    --botones: #f48347;
+
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:1001px){
+.container{
+    grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "main main main main"
+    "main main main main"
+    "footer footer footer footer" ;
+
+    
+}
+
+/* -------------CREACION DEL NAV---------------- */
+
+.header{
+    grid-area: header;
+    /* background-color: rgb(10, 181, 183); */
+    background-color:  #659FF5;
+    height: 75px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;  
+    
+}
+
+ul > .barra-nav{
+
+    /* flex-basis: 110px;  */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 2vw;
+    
+
+    
+    
+    /* border-radius: 5px;
+    /* border: solid;   */
+    /* box-shadow: 2px 3px #cfcfd8; */
+
+    font-family: 'Inter', sans-serif;
+font-family: 'Noto Nastaliq Urdu', serif;
+font-family: 'Noto Sans Zanabazar Square', sans-serif;
+ 
+}
+
+/* ul > .barra-nav:first-child{
+    /* border:dashed;
+    border-color: #db9c13; 
+} */
+
+ul > a:hover{
+    /* transform: scale(1.2,1.2); */
+    color: #000;
+}
+
+ul > .logo{
+   margin-left: 2vw;
+}
+
+.img-logo{
+    
+    background-color: #ffffff;
+    height: 40px;
+    width: 5vw;
+    padding: 6px;
+    border: 10px;
+    border-radius: 10px;  
+}
+.img-logo:hover{
+    box-shadow: 3px 3px #d6d4d4;
+}
+
+
+.facebook{
+    height: 5.5vh;
+    width: 32px;
+    /* background-color: #000000; */
+    background-image: url(/img/facebook\ \(1\).png);
+    background-size: 32px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 47vw;
+}
+.instagram{
+    height: 5.5vh;
+    width: 32px;
+    background-image: url(/img/logotipo-de-instagram.png);
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 2vw;
+    
+}
+.whatsapp{
+    height: 6vh;
+    width: 32px;
+    /* background-color: #000000; */
+    background-image: url(/img/whatsapp.png);
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 2vw;
+    
+}
+.gmail{
+    height: 32px;
+    width: 32px;
+    background-image: url(/img/logotipo-de-gmail.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 2vw;
+    
+}
+
+
+
+/* ------------------CREACION DEL MAIN---------- */
+
+.main{
+    grid-area: main;
+    background-color: #fff;
+}
+
+main > .contenedor-img{
+    display:flex;
+    height: 500px; 
+} 
+
+/* -----------IMAGEN PRINCIPAÑ---------------- */
+
+.sector-img{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    width: 100%;
+    background-image: url(/img/Rectangle\ 1.png);
+    
+    background-size: 100%;
+    background-repeat: no-repeat;   
+}
+
+.sector-img > h2{
+   
+    margin-left: 40px;
+    font-size: 31px;
+    line-height: 42px;
+    color: white;
+}
+
+.sector-img > p{
+    margin-left: 40px;
+    line-height: 29px;
+    font-size: 19px;
+    color: var(--negro)
+}
+
+/* ----------ENLACE A NUESTROS SERVICIOS------- */
+.unite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: var(--cfondo1);
+}
+
+.unite > a{
+    text-decoration: none;
+    color: #000000;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+    font-family: 'Sora', sans-serif;
+
+    font-size: 26px;
+    line-height: 20px;
+}
+
+.unite > a > b{
+    color: #0094da;
+}
+
+/* ----------parte de servicios----------- */
+
+#servicios{
+    text-align: center;
+}
+.cobertura{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30px;
+    margin-left: 2vw;
+}
+.cobertura>b{
+    color: #0094da;
+}
+ main > .contenedor-sectores{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin: 0 auto;
+   
+    /* overflow: hidden; */
+}
+
+.sector1, .sector2, .sector3,
+.sector4, .sector5,
+.sector6{
+    /* background-color: aqua; */
+    width: 250px;
+    height: 200px;
+    margin:2vh 0vh;
+    /* border: solid ; */
+   
+
+    background-repeat: no-repeat;
+    background-position: end;
+    background-size: 100% 100%;
+  
+
+    border-radius: 10px;
+    box-shadow: 2px 3px #888999;
+
+    
+} 
+.sector1:hover, .sector2:hover, .sector3:hover,
+.sector4:hover, .sector5:hover,
+.sector6:hover{
+    transform: scale(1.1,1.1);
+}
+
+.sector1{
+    background-image: url(/img/istockphoto-1150270024-612x612\ 1.png);   
+
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+    border-radius: 10px;
+}
+
+.sector2{
+    background-image: url(/img/radiografia-periapical\ 1.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sector3{
+    background-image: url(/img/odontopediatria-dental\ 1.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sector4{
+    background-image: url(/img/pdc-dentista-online\ 1.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sector5{
+    background-image: url(/img/download\ 3.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sector6{
+    background-image: url(/img/download\ 4.png);
+
+    background-repeat: no-repeat;
+    
+}
+
+.enlace-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100vw;
+    height: 100px;
+    background-color: var(--cfondo1);
+}
+.enlace-contacto > h3{
+    font-family: 'Sora', sans-serif;
+    font-size: 26px;
+}
+.enlace-contacto> h3 > b{
+    color: #0094da;
+}
+
+/* ------------CREACION DEL FOOTER------------ */
+.footer{
+    background-color: #f48347;
+    height: 200px;
+    
+}
+
+/* agrego las fuentes de letra */
+h2{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+    font-family: 'Sora', sans-serif; 
+
+
+}
+p{
+    font-family: 'Inter', sans-serif;
+font-family: 'Noto Nastaliq Urdu', serif;
+font-family: 'Noto Sans Zanabazar Square', sans-serif;
+font-family: 'Sora', sans-serif;
+}
+}
+
+/* CELULAR */
+@media screen and (max-width: 700px){
+    .container{
+        grid-template-areas:
+        "header header header "
+        "main main main "
+        "main main main "
+        "main main main "
+        "main main main"
+        "footer footer footer" ;
+    
+        
+    }
+   .header{ background-color: black;} 
+}
+
+/* TABLET */
+@media screen and (max-width: 1000px) and (min-width:700px){
+    .container{
+        grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "footer footer footer footer" ;
+    
+        
+    }
+    .header{ 
+        background-color: #ffffff;} 
+ }
