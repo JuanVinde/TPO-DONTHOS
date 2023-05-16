@@ -216,15 +216,29 @@ main > .contenedor-img{
 
 #servicios{
     text-align: center;
+    font-size: 30px;
+    margin-top: 4vh;
 }
 .cobertura{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 30px;
     margin-left: 2vw;
+    margin-top: 10vh;
 }
 .cobertura>b{
     color: #0094da;
 }
+
+.cobertura-1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30px;
+    margin-left: 2vw;
+    margin-top: 5vh;
+}
+.cobertura-1>b{
+    color: #0094da;
+}
+
  main > .contenedor-sectores{
 
     display: flex;
@@ -232,7 +246,7 @@ main > .contenedor-img{
     justify-content: space-between;
     align-items: center;
     width: 70vw;
-    margin: 0 auto;
+    margin: 4vh auto;
    
     /* overflow: hidden; */
 }
@@ -243,7 +257,7 @@ main > .contenedor-img{
     /* background-color: aqua; */
     width: 250px;
     height: 200px;
-    margin:2vh 0vh;
+    margin:2vh auto;
     /* border: solid ; */
    
 
@@ -269,7 +283,6 @@ main > .contenedor-img{
     background-repeat: no-repeat;
     background-position: center;
     
-
     border-radius: 10px;
 }
 
@@ -305,14 +318,13 @@ main > .contenedor-img{
     background-image: url(/TPO-DONTHOS/img/download\ 8.png);
 
     background-repeat: no-repeat;
-    
 }
 
 .enlace-contacto{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px auto;
+    margin: 10px auto;
     width: 100vw;
     height: 100px;
     background-color: var(--cfondo1);
@@ -334,9 +346,9 @@ main > .contenedor-img{
 
 /* agrego las fuentes de letra */
 h2{
-    font-family: 'Inter', sans-serif;
+/* font-family: 'Inter', sans-serif;
     font-family: 'Noto Nastaliq Urdu', serif;
-    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif; */
     font-family: 'Sora', sans-serif; 
 
 
