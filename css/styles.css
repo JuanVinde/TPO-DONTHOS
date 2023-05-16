@@ -103,7 +103,7 @@ ul > .logo{
     height: 5.5vh;
     width: 32px;
     /* background-color: #000000; */
-    background-image: url(/img/facebook\ \(1\).png);
+    background-image: url(/TPO-DONTHOS/img/facebook\ \(1\).png);
     background-size: 32px ;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,7 +112,7 @@ ul > .logo{
 .instagram{
     height: 5.5vh;
     width: 32px;
-    background-image: url(/img/logotipo-de-instagram.png);
+    background-image: url(/TPO-DONTHOS/img/logotipo-de-instagram.png);
     background-size: 32px;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,10 +120,10 @@ ul > .logo{
     
 }
 .whatsapp{
-    height: 6vh;
+    height: 5.5vh;
     width: 32px;
     /* background-color: #000000; */
-    background-image: url(/img/whatsapp.png);
+    background-image: url(/TPO-DONTHOS/img/whatsapp.png);
     background-size: 32px;
     background-position: center;
     background-repeat: no-repeat;
@@ -131,9 +131,9 @@ ul > .logo{
     
 }
 .gmail{
-    height: 32px;
+    height: 5.5vh;
     width: 32px;
-    background-image: url(/img/logotipo-de-gmail.png);
+    background-image: url(/TPO-DONTHOS/img/logotipo-de-gmail.png);
     background-position: center;
     background-repeat: no-repeat;
     margin-left: 2vw;
@@ -165,7 +165,7 @@ main > .contenedor-img{
 
 
     width: 100%;
-    background-image: url(/img/Rectangle\ 1.png);
+    background-image: url(/TPO-DONTHOS/img/Rectangle\ 1.png);
     
     background-size: 100%;
     background-repeat: no-repeat;   
@@ -264,7 +264,7 @@ main > .contenedor-img{
 }
 
 .sector1{
-    background-image: url(/img/istockphoto-1150270024-612x612\ 1.png);   
+    background-image: url(/TPO-DONTHOS/img/download\ 3.png);   
 
     background-repeat: no-repeat;
     background-position: center;
@@ -274,35 +274,35 @@ main > .contenedor-img{
 }
 
 .sector2{
-    background-image: url(/img/radiografia-periapical\ 1.png);
+    background-image: url(/TPO-DONTHOS/img/download\ 4.png);
 
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .sector3{
-    background-image: url(/img/odontopediatria-dental\ 1.png);
+    background-image: url(/TPO-DONTHOS/img/download\ 5.png);
 
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .sector4{
-    background-image: url(/img/pdc-dentista-online\ 1.png);
+    background-image: url(/TPO-DONTHOS/img/download\ 6.png);
 
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .sector5{
-    background-image: url(/img/download\ 3.png);
+    background-image: url(/TPO-DONTHOS/img/download\ 7.png);
 
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .sector6{
-    background-image: url(/img/download\ 4.png);
+    background-image: url(/TPO-DONTHOS/img/download\ 8.png);
 
     background-repeat: no-repeat;
     
