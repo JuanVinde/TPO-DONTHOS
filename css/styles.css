@@ -36,108 +36,126 @@ paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 bot
 
 .header{
     grid-area: header;
-    /* background-color: rgb(10, 181, 183); */
-    background-color:  #659FF5;
+    
+    /* background-color:  #659FF5; */
+    /* background-color:  #0a0a0a; */
+    /* background-color: #2C2C2C; */
+    background-color: #1c1c1c;
     height: 75px;
-}
 
-ul{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;  
     
 }
 
-ul > .barra-nav{
+.contenedor-nav-logo{
 
-    /* flex-basis: 110px;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    margin-left: 2vw;
+        
+}
+
+ 
+ .img-logo{
+     
+
+    background-color: #fff;
+    border:10px;
+    border-radius:8px; 
+    height: 40px;
+    /* width: 100%; */
+    padding: 6px;
+    
+
+}
+
+ .img-logo:hover{
+
+     box-shadow: 3px 3px #ffffff;
+
+}
+
+.contenedor-nav{
+    
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;  
+    margin-left: 15vw;
+
+}
+
+.contenedor-nav > .barra-nav{
+
     text-align: center;
     text-decoration: none;
     color: #fff;
     font-size: 15px;
-    margin-left: 2vw;
+    margin-left:2vw;
     
-
-    
-    
-    /* border-radius: 5px;
-    /* border: solid;   */
-    /* box-shadow: 2px 3px #cfcfd8; */
-
-    font-family: 'Inter', sans-serif;
-font-family: 'Noto Nastaliq Urdu', serif;
-font-family: 'Noto Sans Zanabazar Square', sans-serif;
+    font-family: 'Sora', sans-serif;
  
 }
 
-/* ul > .barra-nav:first-child{
-    /* border:dashed;
-    border-color: #db9c13; 
-} */
 
-ul > a:hover{
-    /* transform: scale(1.2,1.2); */
-    color: #000;
+.contenedor-nav > a:hover{
+    color: #0094da;
 }
 
-ul > .logo{
-   margin-left: 2vw;
-}
-
-.img-logo{
+.contenedor-nav-redes{
     
-    background-color: #ffffff;
-    height: 40px;
-    width: 5vw;
-    padding: 6px;
-    border: 10px;
-    border-radius: 10px;  
-}
-.img-logo:hover{
-    box-shadow: 3px 3px #d6d4d4;
-}
+    height: 100%;
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 16vw;
 
+}
 
 .facebook{
+
     height: 5.5vh;
     width: 32px;
-    /* background-color: #000000; */
-    background-image: url(/TPO-DONTHOS/img/facebook\ \(1\).png);
+    
+    background-image: url(/TPO-DONTHOS/img/facebook-blanco\ \(1\).png);
     background-size: 32px ;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 47vw;
+    
 }
 .instagram{
+
     height: 5.5vh;
     width: 32px;
-    background-image: url(/TPO-DONTHOS/img/logotipo-de-instagram.png);
+    background-image: url(/TPO-DONTHOS/img/instagram-blanco.png);
     background-size: 32px;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 2vw;
-    
+      
 }
 .whatsapp{
+
     height: 5.5vh;
     width: 32px;
-    /* background-color: #000000; */
-    background-image: url(/TPO-DONTHOS/img/whatsapp.png);
+    
+    background-image: url(/TPO-DONTHOS/img/whatsapp-blanco.png);
     background-size: 32px;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 2vw;
-    
+      
 }
 .gmail{
+
     height: 5.5vh;
     width: 32px;
-    background-image: url(/TPO-DONTHOS/img/logotipo-de-gmail.png);
+    background-image: url(/TPO-DONTHOS/img/gmail-blanco.png);
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 2vw;
-    
+  
 }
 
 
@@ -147,6 +165,7 @@ ul > .logo{
 .main{
     grid-area: main;
     background-color: #fff;
+    /* background-color: #242526; */
 }
 
 main > .contenedor-img{
