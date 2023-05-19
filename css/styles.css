@@ -8,6 +8,7 @@ paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 bot
     --cletra: #3c3c3d;
     --cfondo: #0094da;
     --cfondo1: #e8edf18e;
+    --main-footer: #1c1c1c;
     /* --cfondo1: #57585c; */
 
     --botones: #f48347;
@@ -40,7 +41,7 @@ paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 bot
     /* background-color:  #659FF5; */
     /* background-color:  #0a0a0a; */
     /* background-color: #2C2C2C; */
-    background-color: #1c1c1c;
+    background-color: var(--main-footer);
     height: 75px;
 
     display: flex;
@@ -163,14 +164,17 @@ paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 bot
 /* ------------------CREACION DEL MAIN---------- */
 
 .main{
+    
     grid-area: main;
     background-color: #fff;
-    /* background-color: #242526; */
+
 }
 
 main > .contenedor-img{
+
     display:flex;
-    height: 500px; 
+    height: 500px;
+    
 } 
 
 /* -----------IMAGEN PRINCIPAÑ---------------- */
@@ -237,25 +241,33 @@ main > .contenedor-img{
     text-align: center;
     font-size: 30px;
     margin-top: 4vh;
+    
+    
 }
 .cobertura{
+    
     font-family: 'Libre Franklin', sans-serif;
     font-size: 30px;
     margin-left: 2vw;
     margin-top: 10vh;
+    
 }
 .cobertura>b{
     color: #0094da;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .cobertura-1{
+
     font-family: 'Libre Franklin', sans-serif;
     font-size: 30px;
     margin-left: 2vw;
     margin-top: 5vh;
+    
 }
 .cobertura-1>b{
     color: #0094da;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
  main > .contenedor-sectores{
@@ -287,8 +299,7 @@ main > .contenedor-img{
 
     border-radius: 10px;
     box-shadow: 2px 3px #888999;
-
-    
+   
 } 
 .sector1:hover, .sector2:hover, .sector3:hover,
 .sector4:hover, .sector5:hover,
@@ -358,10 +369,13 @@ main > .contenedor-img{
 
 /* ------------CREACION DEL FOOTER------------ */
 .footer{
-    background-color: #f48347;
-    height: 200px;
+    display: flex;
+    background-color: var(--main-footer);
+    /* height: 200px; */
     
 }
+
+
 
 /* agrego las fuentes de letra */
 h2{
@@ -378,7 +392,7 @@ font-family: 'Noto Nastaliq Urdu', serif;
 font-family: 'Noto Sans Zanabazar Square', sans-serif;
 font-family: 'Sora', sans-serif;
 }
-}
+
 
 /* CELULAR */
 @media screen and (max-width: 700px){
