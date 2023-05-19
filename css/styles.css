@@ -62,12 +62,15 @@ paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 bot
  .img-logo{
      
 
-    background-color: #fff;
+    /* background-color: #fff;
     border:10px;
     border-radius:8px; 
     height: 40px;
     /* width: 100%; */
-    padding: 6px;
+    /* padding: 6px;  */
+    width: 11vw;
+    height: 9vh;
+    border-radius: 7px;
     
 
 }
@@ -370,13 +373,47 @@ main > .contenedor-img{
 /* ------------CREACION DEL FOOTER------------ */
 .footer{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: var(--main-footer);
-    /* height: 200px; */
+
+    height: 30vh;
     
 }
 
+.contenedor-redes-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 18vw;
+
+}
 
 
+.contenedor-texto-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-footer{
+    width: 15vw;
+    height: 11vh;
+    border-radius: 7px;
+    margin-top: 2vh;
+}
+
+.contenedor-texto-f > h4,p {
+    color: #ffffffd0;
+}
+
+.contenedor-texto-f > h4{
+    margin-top: 0px;
+}
+
+.contenedor-texto-f {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 /* agrego las fuentes de letra */
 h2{
 /* font-family: 'Inter', sans-serif;
