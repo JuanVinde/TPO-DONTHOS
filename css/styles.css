@@ -362,12 +362,44 @@ main > .contenedor-img{
     height: 100px;
     background-color: var(--cfondo1);
 }
-.enlace-contacto > h3{
+.enlace-contacto > a{
     font-family: 'Sora', sans-serif;
     font-size: 26px;
+    text-decoration: none;
+    color: #000;
 }
-.enlace-contacto> h3 > b{
+.enlace-contacto> a > b{
     color: #0094da;
+}
+/* ----------------------------------------Seccion conocenos------------------------------------------------------ */
+
+.visitanos{
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: center;
+}
+
+.mapa{
+    border-radius: 10px;
+    border-color: #888;
+    box-shadow: 3px 3px #888999;
+}
+
+.mapa:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.ubicacion>h3{
+    font-family: 'Sora', sans-serif;
+    font-size: 3.5vh;
 }
 
 /* ------------CREACION DEL FOOTER------------ */
