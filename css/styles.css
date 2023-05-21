@@ -310,13 +310,13 @@ main > .contenedor-img{
     transform: scale(1.1,1.1);
     background-color: #f7f4f4ce;
     background-size: 80%;
-    outline: 10px solid blue;
+    outline: 1px solid #000;
     text-align: center;
 }
 
 
 .sector1{
-    background-image: url(/TPO-DONTHOS/img/download\ 3.png);   
+    background-image: url(/TPO-DONTHOS/img/consultaonline.png);   
 
     background-repeat: no-repeat;
     background-position: center;
@@ -330,43 +330,138 @@ main > .contenedor-img{
 }
 .sector1:hover > h5{
     display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vh;
+    color: #0094da;
 }
 
 .sector2{
-    background-image: url(/TPO-DONTHOS/img/download\ 4.png);
+    background-image: url(/TPO-DONTHOS/img/urgencia\ y\ alivo\ del\ dolor.png);
 
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.sector2 > h5{
+    display: none;
+}
+.sector2:hover > h5{
+    display: block;
+    font-family: 'Sora', sans-serif;
+    font-size: 3vh;
 }
 
 .sector3{
-    background-image: url(/TPO-DONTHOS/img/download\ 5.png);
+    background-image: url(/TPO-DONTHOS/img/radiografia.png);
 
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.sector3 > h5{
+    display: none;
+}
+.sector3:hover > h5{
+    display: block;
+    font-family: 'Sora', sans-serif;
+    font-size: 3vh;
 }
 
 .sector4{
-    background-image: url(/TPO-DONTHOS/img/download\ 6.png);
+    background-image: url(/TPO-DONTHOS/img/odontopediatria.png);
 
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.sector4 > h5{
+    display: none;
+}
+.sector4:hover > h5{
+    display: block;
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
 }
 
 .sector5{
-    background-image: url(/TPO-DONTHOS/img/download\ 7.png);
+    background-image: url(/TPO-DONTHOS/img/endodoncia\ 1.png);
 
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.sector5 > h5{
+    display: none;
+}
+.sector5:hover > h5{
+    display: block;
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
 }
 
 .sector6{
-    background-image: url(/TPO-DONTHOS/img/download\ 8.png);
+    background-image: url(/TPO-DONTHOS/img/implante.png);
 
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.sector6 > h5{
+    display: none;
+}
+.sector6:hover > h5{
+    display: block;
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+}
+
+.background-1{
+    background-image: url(/TPO-DONTHOS/img/arreglo\ de\ carie.png);
+}
+
+.background-2{
+    background-image: url(/TPO-DONTHOS/img/limpieza\ dental.png);
+}
+
+.background-3{
+    background-image: url(/TPO-DONTHOS/img/periodoncia.png);
+}
+
+.background-4{
+    background-image: url(/TPO-DONTHOS/img/odontologia\ preventiva.png);
+}
+
+.background-5{
+    background-image: url(/TPO-DONTHOS/img/blanquiamento.png);
+}
+
+.background-6{
+    background-image: url(/TPO-DONTHOS/img/extraccion\ dental.png);
+}
+
+.background-7{
+    background-image: url(/TPO-DONTHOS/img/reconstruccion\ estetica.png);
+}
+
+.background-8{
+    background-image: url(/TPO-DONTHOS/img/endodoncia\ 1.png);
+}
+
+.background-9{
+    background-image: url(/TPO-DONTHOS/img/protesis.png);
+}
+
+.background-10{
+    background-image: url(/TPO-DONTHOS/img/implante.png);
+}
+
+.background-11{
+    background-image: url(/TPO-DONTHOS/img/ortodoncia.png);
+}
+
+.background-12{
+    background-image: url(/TPO-DONTHOS/img/implante.png);
+}
 .enlace-contacto{
     display: flex;
     align-items: center;
@@ -389,7 +484,7 @@ main > .contenedor-img{
 
 .visitanos{
     display: flex;
-    height: 50vh;
+    height: 60vh;
     justify-content: space-around;
     align-items: center;
 }
@@ -409,7 +504,7 @@ main > .contenedor-img{
 }
 
 .mapa:hover{
-    transform: scale(1.1, 1.1);
+    background-color: #999;
 }
 
 .ubicacion>h3{
@@ -443,11 +538,11 @@ main > .contenedor-img{
     font-size: 20px; /* Tamaño de fuente */
     border: none; /* Borde */
     cursor: pointer; 
+    outline:  solid #999;
 }
 
 #boton-wsp:hover {
     background-color: #45a049; /* Color de fondo al pasar el cursor por encima */
-    transform: scale(1.1,1.1);
 }
   
  #boton-wsp:active {
@@ -465,12 +560,11 @@ main > .contenedor-img{
 /* ------------CREACION DEL FOOTER------------ */
 .footer{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: var(--main-footer);
 
-    height: 30vh;
+    height: 20vh;
     
 }
 
@@ -505,6 +599,20 @@ main > .contenedor-img{
 
 .contenedor-texto-f {
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contenedor-grupo>h5{
+    font-family: 'sora','sans-serift';
+    color: #fff;
+    font-size: 20px;
+    padding: 2vh 0;
+    text-align: start;
+}
+
+.contenedor-grupo>ul>li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3vw;
+    color: #fff;
 }
 /* agrego las fuentes de letra */
 h2{
