@@ -48,6 +48,15 @@ paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 bot
     
 }
 
+.abrir-menu-responsive{
+    display: none;
+}
+
+.cerrar-menu-responsive{
+    display: none;
+}
+
+
 .contenedor-nav-logo{
 
     display: flex;
@@ -625,21 +634,7 @@ font-family: 'Sora', sans-serif;
 }
 }
 
-/* CELULAR */
-@media screen and (max-width: 700px){
-    .container{
-        grid-template-areas:
-        "header header header "
-        "main main main "
-        "main main main "
-        "main main main "
-        "main main main"
-        "footer footer footer" ;
-    
-        
-    }
-   .header{ background-color: black;} 
-}
+
 
 /* TABLET */
 @media screen and (max-width: 1000px) and (min-width:700px){

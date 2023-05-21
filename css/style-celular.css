@@ -1,0 +1,360 @@
+/* CELULAR */
+@media screen and (max-width: 450px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        grid-template-areas:
+        "header header header "
+        "main main main "
+        "main main main "
+        "main main main "
+        "main main main"
+        "footer footer footer" ;  
+    }
+     
+    /* ----------------------------------MENU RESPONSIVE---------------------- */
+   .header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh; /* Ajusta la altura según tus necesidades */
+    background-color: var(--main-footer);
+    } 
+
+    .cerrar-menu-responsive{
+        display: none;
+    }
+
+    .contenedor-nav{
+        display: none;
+    }
+    
+    .contenedor-nav-redes{
+        display: none;
+    }
+
+    .img-logo{
+        border-radius: 30%;
+        box-shadow: 2px 3px #cecece;
+        height:5vh;
+        width: 10vw;
+        text-align: center;
+        margin: 2vh;
+        padding: 3px;
+        background-color: #fff;
+    }
+
+    .abrir-menu-responsive{
+        background-image: url(/TPO-DONTHOS/img/barra-de-menus.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 2vh;
+        height: 30px;
+        width: 32px;
+        border-radius: 5%;
+        background-color: #fff;
+        border: 1px solid #cecece;
+    }
+
+    
+/* -------------------------------MAIN RESPONSIVE CELULAR------------------ */
+
+/* imagen principal */
+.contenedor-img{
+    background-image: url(/TPO-DONTHOS/img/imagen-principal-celu.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.sector-img{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1vh;
+    height: 100%;
+    width: 100%; 
+}
+
+.sector-img > h2{
+   
+    margin-left: 3vw;
+    font-size: 2vh;
+    line-height: 2.5vh;
+    color: white;
+}
+
+.sector-img > p{
+    margin-left: 3vw;
+    font-size: 1.5vh;
+    line-height: 2vh;
+    color: var(--negro)
+}
+
+/* seccion enlace a nuestros servicios */
+
+.unite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: var(--cfondo1);
+}
+
+.unite > a{
+    text-decoration: none;
+    color: #000000;
+
+    font-family: 'Sora', sans-serif;
+
+    font-size: 15px;
+    line-height: 20px;  
+    margin-left: 3vw;
+}
+
+.unite > a > b{
+    color: #0094da;
+}
+
+.unite :hover{
+    background-color: #e8edf13c;
+}
+
+/* Seccion nuestras coberturas */
+
+#servicios{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 4vh;
+    
+    
+}
+
+.cobertura-1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    margin-left: 2vw;
+    margin-top: 4vh;   
+}
+.cobertura{
+    
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    
+}
+.cobertura>b{
+    color: #0094da;
+}
+
+
+.cobertura-1>b{
+    color: #0094da;
+}
+
+ main > .contenedor-sectores{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin: 4vh auto;
+   
+    /* overflow: hidden; */
+}
+
+.sector1, .sector2, .sector3,
+.sector4, .sector5,
+.sector6{
+    /* background-color: aqua; */
+    width: 120px;
+    height: 95px;
+    margin:2vh auto;
+    /* border: solid ; */
+   
+
+    background-repeat: no-repeat;
+    background-position: end;
+    background-size: 100% 100%;
+  
+
+    border-radius: 10px;
+    box-shadow: 2px 3px #888999;
+   
+} 
+
+.sector1:hover, .sector2:hover, .sector3:hover,
+.sector4:hover, .sector5:hover,
+.sector6:hover{
+    transform: scale(1.1,1.1);
+    background-color:#cecece;
+    background-size: 80%;
+    outline: 1px solid #000;
+    text-align: center;
+}
+
+
+.sector1{
+    background-image: url(/TPO-DONTHOS/img/consultaonline.png);   
+
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    border-radius: 10px;
+    
+}
+
+.sector1 > h5{
+    display: none;
+}
+.sector1:hover > h5{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+    color: #ffffff
+}
+
+.sector2{
+    background-image: url(/TPO-DONTHOS/img/urgencia\ y\ alivo\ del\ dolor.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sector2 > h5{
+    display: none;
+}
+.sector2:hover > h5{
+    display: block;
+    font-family: 'Sora', sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+    color: #fff
+}
+
+.sector3{
+    background-image: url(/TPO-DONTHOS/img/radiografia.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sector3 > h5{
+    display: none;
+}
+.sector3:hover > h5{
+    display: block;
+    font-family: 'Sora', sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.sector4{
+    background-image: url(/TPO-DONTHOS/img/odontopediatria.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sector4 > h5{
+    display: none;
+}
+.sector4:hover > h5{
+    display: block;
+    font-family: 'Sora', sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.sector5{
+    background-image: url(/TPO-DONTHOS/img/endodoncia\ 1.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sector5 > h5{
+    display: none;
+}
+.sector5:hover > h5{
+    display: block;
+    font-family: 'Sora', sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.sector6{
+    background-image: url(/TPO-DONTHOS/img/implante.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sector6 > h5{
+    display: none;
+}
+.sector6:hover > h5{
+    display: block;
+    font-family: 'Sora', sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.background-1{
+    background-image: url(/TPO-DONTHOS/img/arreglo\ de\ carie.png);
+}
+
+.background-2{
+    background-image: url(/TPO-DONTHOS/img/limpieza\ dental.png);
+}
+
+.background-3{
+    background-image: url(/TPO-DONTHOS/img/periodoncia.png);
+}
+
+.background-4{
+    background-image: url(/TPO-DONTHOS/img/odontologia\ preventiva.png);
+}
+
+.background-5{
+    background-image: url(/TPO-DONTHOS/img/blanquiamento.png);
+}
+
+.background-6{
+    background-image: url(/TPO-DONTHOS/img/extraccion\ dental.png);
+}
+
+.background-7{
+    background-image: url(/TPO-DONTHOS/img/reconstruccion\ estetica.png);
+}
+
+.background-8{
+    background-image: url(/TPO-DONTHOS/img/endodoncia\ 1.png);
+}
+
+.background-9{
+    background-image: url(/TPO-DONTHOS/img/protesis.png);
+}
+
+.background-10{
+    background-image: url(/TPO-DONTHOS/img/implante.png);
+}
+
+.background-11{
+    background-image: url(/TPO-DONTHOS/img/ortodoncia.png);
+}
+
+.background-12{
+    background-image: url(/TPO-DONTHOS/img/implante.png);
+}
+
+}
