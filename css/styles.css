@@ -317,10 +317,11 @@ main > .contenedor-img{
 .sector1:hover, .sector2:hover, .sector3:hover,
 .sector4:hover, .sector5:hover,
 .sector6:hover{
+    /* background-color: #f7f4f4ce; */
     transform: scale(1.1,1.1);
-    background-color: #f7f4f4ce;
+    background-color:#48484813;
     background-size: 80%;
-    outline: 1px solid #000;
+    outline: 2px solid #6d6c6c62;
     text-align: center;
 }
 
@@ -341,8 +342,8 @@ main > .contenedor-img{
 .sector1:hover > h5{
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3vh;
-    color: #0094da;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .sector2{
@@ -357,8 +358,9 @@ main > .contenedor-img{
 }
 .sector2:hover > h5{
     display: block;
-    font-family: 'Sora', sans-serif;
-    font-size: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .sector3{
@@ -373,8 +375,9 @@ main > .contenedor-img{
 }
 .sector3:hover > h5{
     display: block;
-    font-family: 'Sora', sans-serif;
-    font-size: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .sector4{
@@ -389,8 +392,9 @@ main > .contenedor-img{
 }
 .sector4:hover > h5{
     display: block;
-    font-family: 'Sora', sans-serif;
-    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .sector5{
@@ -405,8 +409,9 @@ main > .contenedor-img{
 }
 .sector5:hover > h5{
     display: block;
-    font-family: 'Sora', sans-serif;
-    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .sector6{
@@ -421,8 +426,9 @@ main > .contenedor-img{
 }
 .sector6:hover > h5{
     display: block;
-    font-family: 'Sora', sans-serif;
-    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .background-1{
@@ -640,19 +646,4 @@ font-family: 'Sora', sans-serif;
 
 
 
-/* TABLET */
-@media screen and (max-width: 1000px) and (min-width:700px){
-    .container{
-        grid-template-areas:
-        "header header header header"
-        "main main main main"
-        "main main main main"
-        "main main main main"
-        "footer footer footer footer" ;
-    
-        
-    }
-    .header{ 
-        background-color: #ffffff;
-    } 
-}
+
