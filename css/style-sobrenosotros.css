@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.presentaciones{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+  
+}
