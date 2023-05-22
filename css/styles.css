@@ -471,6 +471,8 @@ main > .contenedor-img{
 .background-12{
     background-image: url(/TPO-DONTHOS/img/implante.png);
 }
+
+/* -------SECTOR CONTACTANOS--------- */
 .enlace-contacto{
     display: flex;
     align-items: center;
