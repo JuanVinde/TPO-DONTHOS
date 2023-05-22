@@ -202,8 +202,9 @@ main > .contenedor-img{
     width: 100%;
     background-image: url(/TPO-DONTHOS/img/Rectangle\ 1.png);
     
-    background-size: 100%;
-    background-repeat: no-repeat;   
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
 }
 
 .sector-img > h2{
