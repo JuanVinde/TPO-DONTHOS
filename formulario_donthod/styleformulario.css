@@ -1,0 +1,123 @@
+* {
+    font-family: 'Sora', sans-serif;
+}
+.header {
+    grid-area: header;
+    /* background-color:  #659FF5; */
+    /* background-color:  #0a0a0a; */
+    /* background-color: #2C2C2C; */
+    background-color: #1c1c1c;
+    height: 75px;
+    display: flex;
+}
+
+.contenedor-nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    margin-left: 2vw;
+}
+
+.img-logo {
+    background-color: #fff;
+    border: 10px;
+    border-radius: 8px;
+    height: 40px;
+    /* width: 100%; */
+    padding: 6px;
+}
+
+.img-logo:hover {
+    box-shadow: 3px 3px #ffffff;
+}
+.contenedor-nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin-left: 15vw;
+}
+.contenedor-nav>.barra-nav {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 2vw;
+    font-family: 'Sora', sans-serif;
+}
+.contenedor-nav>a:hover {
+    color: #0094da;
+}
+.contenedor-nav-redes {
+    height: 100%;
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 16vw;
+}
+.facebook {
+    height: 5.5vh;
+    width: 32px;
+    background-image: url(facebook.jpg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.instagram {
+    height: 5.5vh;
+    width: 32px;
+    background-image: url(instagram.jpg);
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.whatsapp {
+    height: 5.5vh;
+    width: 32px;
+    background-image: url(whatsapp.jpg);
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gmail {
+    height: 5.5vh;
+    width: 32px;
+    background-image: url(gmail.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+.usos{
+    display: grid;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    column-gap: 1vh;
+   
+}
+.ubicacion{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
