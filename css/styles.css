@@ -624,6 +624,7 @@ main > .contenedor-img{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 3vw;
     color: #fff;
+    list-style-type: none;
 }
 /* agrego las fuentes de letra */
 h2{
