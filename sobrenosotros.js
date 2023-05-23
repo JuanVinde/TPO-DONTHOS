@@ -89,7 +89,7 @@ let headerjs = ` <div class="contenedor-nav-logo">
 
 <a href="index.html"class="barra-nav" >Inicio</a>
 <a href="SobreNosotros.html" class="barra-nav" class="sobre-nosotros">Sobre Nosotros</a>
-<a href="*"     class="barra-nav">Contacto</a>
+<a href="/TPO-DONTHOS/formulario_donthod/formulario_donthos.html"     class="barra-nav">Contacto</a>
 <a href="*" class="barra-nav">RRHH</a>
     
 </div> 
