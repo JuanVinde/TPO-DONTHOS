@@ -66,39 +66,39 @@ let footerjs= `
 <div class="contenedor-grupo">
 <h5>Pagina creada por:</h5>
 <ul>
-    <li>- Juan Cruz, Vinderola Breppe</li>
-    <li>- gabi</li>
-    <li>- sebastian</li>
+    <li>Juan Cruz, Vinderola Breppe</li>
+    <li>Gabriel, Lombardi</li>
+    <li>sebastian</li>
 </ul>
 </div>`
 
 document.querySelector("footer").innerHTML=footerjs
 
-let headerjs = ` <div class="contenedor-nav-logo"> 
-<a href="index.html" class="logo">
-    <img src="/TPO-DONTHOS/img/logo-final.png" alt="" class="img-logo">
-</a>
-</div>
+//---------------header responsive-------------------------------//
 
-<button class="abrir-menu-responsive"></button>
+let headerjs = `             <a href="index.html">
+                <img class="img-logo" src="/TPO-DONTHOS/img/logo-final.png" alt="Logo">
+                </a>
+                <button id="abrir" class="abrir-menu-responsive"></button>
+            
+                  
+                   
+            <nav class="nav" id="nav">
+                <button id="cerrar" class="cerrar-menu-responsive"></button>
+                <ul class="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="#">Nuestras Coberturas</a></li>
+                    <li><a href="formulario_donthod/formulario_donthos.html">Contacto</a></li>
+                </ul>
+                <div class="nav-list-redes">
+                    <a href="https://www.facebook.com/profile.php?id=100064057568624" class="facebook"></a>
+                    <a href="https://www.instagram.com" class="instagram"></a>
+                    <a href="https://www.whatsapp.com" class="whatsapp"></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkxGsLHzRrgKDPVhnRsdGvRfMcZhVTsQtBLZXDqmCjMvrGlCdslrQPcmJLLDCMTsBjVxWR" class="gmail"></a>
+                 </div>
+                
+            </nav> `
 
-<button class="cerrar-menu-responsive">cerrar</button>
+ document.querySelector("header").innerHTML=headerjs
 
-<div class="contenedor-nav">
-
-
-<a href="index.html"class="barra-nav" >Inicio</a>
-<a href="SobreNosotros.html" class="barra-nav" class="sobre-nosotros">Sobre Nosotros</a>
-<a href="/TPO-DONTHOS/formulario_donthod/formulario_donthos.html"     class="barra-nav">Contacto</a>
-<a href="*" class="barra-nav">RRHH</a>
-    
-</div> 
-
-<div class="contenedor-nav-redes">
-<a href="https://www.facebook.com/profile.php?id=100064057568624" target="_blank" class="facebook"></a>
-<a href="*" target="_blank" class="instagram"></a>
-<a href="*" target="_blank" class="whatsapp"></a>
-<a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkxGsLHzRrgKDPVhnRsdGvRfMcZhVTsQtBLZXDqmCjMvrGlCdslrQPcmJLLDCMTsBjVxWR" target="_blank" class="gmail"></a>
-</div>`
-
-document.querySelector("header").innerHTML=headerjs
