@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario_donthos</title>
+    <link rel="stylesheet" href="styleformulario.css">
+    <link rel="import" href="https://fonts.google.com/specimen/Sora?query=sora">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+
+<body>
+    <header>
+        <header class="header">
+            <div class="contenedor-nav-logo">
+                <a href="index.html" class="logo">
+                    <img src="fondo_blanco.jpeg" alt="" class="img-logo">
+                </a>
+            </div>
+            <div class="contenedor-nav">
+                <a href="index.html" class="barra-nav">Inicio</a>
+                <a href="*" class="barra-nav" class="sobre-nosotros">Sobre Nosotros</a>
+                <a href="*" class="barra-nav">Contacto</a>
+                <a href="*" class="barra-nav">RRHH</a>
+            </div>
+            <div class="contenedor-nav-redes">
+                <a href="https://www.facebook.com/profile.php?id=100064057568624" target="_blank" class="facebook">
+                </a>
+                <a href="*" target="_blank" class="instagram">
+                </a>
+                <a href="*" target="_blank" class="whatsapp">
+                </a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkxGsLHzRrgKDPVhnRsdGvRfMcZhVTsQtBLZXDqmCjMvrGlCdslrQPcmJLLDCMTsBjVxWR"
+                    target="_blank" class="gmail">
+                </a>
+            </div>
+        </header>
+        <main>
+            <div class="containedor.general">
+                <div class="ubicacion">
+                    <h3>DONTHOS SEGUROS ODONTOLOGICOS</h3>
+                    <ul>
+                        <li>
+                            <i class="marca-mapa">Direcion: Rondeau 65, Cordoba (ARGENTINA) </i>
+                        </li>
+                        <li>
+                            <i class="marca-telefono">TELEFONO: 0351 393-1090</i>
+                        </li>
+                        <li>
+                            <i class="marca-whatsapp">WHATSAPP: 351 6-302093</i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section>
+                <div class="usos">
+                    <div class="box">
+                        <h3>Queres ser socio?</h3>
+                        <form class="formulario1">
+                            <p>
+                                <label>Nombre</label>
+                                <input type="text" name="nombre" required placeholder="Nombre">
+                            </p>
+                            <p>
+                                <label>Apellido</label>
+                                <input type="text" name="apellido" required placeholder="Apellido">
+                            </p>
+                            <p>
+                                <label>Correo</label>
+                                <input type="email" name="email" required placeholder="Email">
+                            </p>
+                            <p>
+                                <label>Telefono</label>
+                                <input type="number" name="telefono" required placeholder="Telefono">
+                            </p>
+                            <p>
+                                <label>Grupo familiar</label>
+                                <input type="number" name="grupo familia" required placeholder="Cantidad de personas">
+                            </p>
+                            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                            <span class="msg-error error"></span>
+                            <p class="full">
+                                <button class="boton-enviar">Enviar</button>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="box">
+                        <h3>Queres ser parte de Donthos?</h3>
+                        <form class="formulario2">
+                            <p>
+                                <label>Nombre</label>
+                                <input type="text" name="nombre" required placeholder="Nombre">
+                            </p>
+                            <p>
+                                <label>Correo</label>
+                                <input type="email" name="email" required placeholder="Email">
+                            </p>
+                            <p>
+                                <label>Telefono</label>
+                                <input type="number" name="telefono" required placeholder="Telefono">
+                            </p>
+                            <p>
+                                <label>Carga tu CV</label>
+                                <input type="file" required>
+                            </p>
+                            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                            <span class="msg-error error"></span>
+                            <p class="full">
+                                <button class="boton-enviar">Enviar</button>
+                            </p>
+
+                        </form>
+                    </div>
+                    <div class="box">
+                        <h3> Queres dejarnos un comentario?</h3>
+                        <label>Mensaje</label>
+                        <textarea placeholder="Escriba aqui su mensaje"></textarea>
+                        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                        <span class="msg-error error"></span>
+                        <p class="full">
+                            <button class="boton-enviar">Enviar</button>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+        </footer>
+    <script src="./formulario_donthos.js"></script>
+</body>
+
+</html>
