@@ -1,0 +1,199 @@
+* {
+    font-family: 'Sora', sans-serif;
+}
+.header {
+    grid-area: header;
+    /* background-color:  #659FF5; */
+    /* background-color:  #0a0a0a; */
+    /* background-color: #2C2C2C; */
+    background-color: #1c1c1c;
+    height: 75px;
+    display: flex;
+}
+
+.contenedor-nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    margin-left: 2vw;
+}
+
+.img-logo {
+    background-color: #fff;
+    border: 10px;
+    border-radius: 8px;
+    height: 40px;
+    /* width: 100%; */
+    padding: 6px;
+}
+
+.img-logo:hover {
+    box-shadow: 3px 3px #ffffff;
+}
+.contenedor-nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin-left: 15vw;
+}
+.contenedor-nav>.barra-nav {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 2vw;
+    font-family: 'Sora', sans-serif;
+}
+.contenedor-nav>a:hover {
+    color: #0094da;
+}
+.contenedor-nav-redes {
+    height: 100%;
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 16vw;
+}
+.facebook {
+    height: 5.5vh;
+    width: 32px;
+    background-image: url(facebook.png);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.instagram {
+    height: 5.5vh;
+    width: 32px;
+    background-image: url(instagram.png);
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.whatsapp {
+    height: 5.5vh;
+    width: 32px;
+    background-image: url(whatsapp.png);
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gmail {
+    height: 5.5vh;
+    width: 32px;
+    background-image: url(gmail.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box{
+    background-color: lightgray;
+    border-radius: 7px;
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+    color: #1c1c1c;
+    
+}
+.usos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1vh;
+   
+}
+.ubicacion{
+    background-color: lightgray;
+    border-radius: 7px;
+    border: black solid;
+    padding: 10px;
+    margin: 5px;
+}
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
+/* --------------------------creacion del footer----------------------------------------------------------- */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightgray;
+    height: 20vh;
+    
+}
+
+.contenedor-redes-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 18vw;
+    
+
+}
+.contenedor-texto-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.img-footer{
+    width: 15vw;
+    height: 11vh;
+    border-radius: 7px;
+    margin-top: 2vh;
+}
+
+.contenedor-texto-f > h4,p {
+    color: black;
+}
+
+.contenedor-texto-f > h4{
+    margin-top: 0px;
+}
+.contenedor-texto-f {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contenedor-grupo > h5{
+    font-family: 'sora','sans-serift';
+    color: black;
+    font-size: 10px;
+    padding: 2vh 0;
+    text-align: start;
+}
+
+.contenedor-grupo>ul>li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 2vw;
+    color: black;
+    list-style-type: none;
+}
+.fb{
+    height: 32px;
+    width: 32px;
+}
+
+.mail{
+    height: 32px;
+    width: 32px;
+}
+
+.wsp{
+    height: 32px;
+    width: 32px;
+}
+
+.insta{
+    height: 32px;
+    width:32px;
+}
