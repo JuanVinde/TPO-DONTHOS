@@ -52,10 +52,10 @@ let footerjs= `
 <a href="https://www.facebook.com/profile.php?id=100064057568624" target="_blank" class="facebook-f">
     <img src="/TPO-DONTHOS/img/facebook-blanco (1).png" alt="facebook" class="fb">
 </a>
-<a href="*" target="_blank" class="instagram-f">
+<a href="https://www.instagram.com/" target="_blank" class="instagram-f">
     <img src="/TPO-DONTHOS/img/instagram-blanco.png" alt="" class="insta">
 </a>
-<a href="*" target="_blank" class="whatsapp-f">
+<a href="https://www.whatsapp.com/?lang=es" target="_blank" class="whatsapp-f">
     <img src="/TPO-DONTHOS/img/whatsapp-blanco.png" alt="" class="wsp">
 </a>
 <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkxGsLHzRrgKDPVhnRsdGvRfMcZhVTsQtBLZXDqmCjMvrGlCdslrQPcmJLLDCMTsBjVxWR" target="_blank" class="gmail-f">
@@ -92,10 +92,10 @@ let headerjs = `             <a href="index.html">
                     <li><a href="formulario_donthod/formulario_donthos.html">Contacto</a></li>
                 </ul>
                 <div class="nav-list-redes">
-                    <a href="https://www.facebook.com/profile.php?id=100064057568624" class="facebook"></a>
-                    <a href="https://www.instagram.com" class="instagram"></a>
-                    <a href="https://www.whatsapp.com" class="whatsapp"></a>
-                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkxGsLHzRrgKDPVhnRsdGvRfMcZhVTsQtBLZXDqmCjMvrGlCdslrQPcmJLLDCMTsBjVxWR" class="gmail"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100064057568624" class="facebook" target="_blank"></a>
+                    <a href="https://www.instagram.com/" class="instagram" target="_blank"></a>
+                    <a href="https://www.whatsapp.com" class="whatsapp" target="_blank"></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkxGsLHzRrgKDPVhnRsdGvRfMcZhVTsQtBLZXDqmCjMvrGlCdslrQPcmJLLDCMTsBjVxWR" class="gmail" target="_blank"></a>
                  </div>
                 
             </nav> `

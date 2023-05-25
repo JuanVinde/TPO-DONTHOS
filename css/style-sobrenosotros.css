@@ -196,7 +196,7 @@ footer{
     margin-top: 0px;
 }
 
-.contenedor-texto-f {
+.contenedor-texto-f > p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -444,7 +444,7 @@ footer{
 }
 
 .contenedor-texto-f > p{
-    font-family: sora;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #fff;
 }
 
