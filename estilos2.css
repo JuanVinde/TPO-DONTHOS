@@ -1,100 +1,170 @@
-/* primera parte */
-p {
-    display:none;
-    }
-    :target + p {
-    display:block;
-    color: rgb(62, 32, 4) ;
-    /* background-color: rgb(233, 220, 243); */
-    }
+* {
+    margin: 0px, ;
+    padding: 0;
+}
 
-    /* segunda parte */
+main{
+    background-color:  #e8edf18e;;
+}
 
-    * {
-        margin: 0px,;
-        padding:0;
-        }
-        html,body {
-        height:100%;
-        }
-        body {
-            display:box;
-        box-orient:vertical;
-        box-pack:center;
-        box-align:center;
-        /* For Firefox */ width:100%;
-        }
-        /* div {
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.Odont-general, .protesis,
+ .estetica{
+    margin-top: 2vh;
+}
+
+a > h2 {
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+a > h1 {
+    font-family: sora;
+    font-size: 25px;
+    margin-left: 3vw;
+}
+
+.tarjeta-desplegable {
+    display: none;
+}
+
+/* :target+*/.tarjeta-desplegable { 
+    color: rgb(62, 32, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    padding: 2vh;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2vh;
+    height: 60vh;
+}
+
+.tarjeta-desplegable > p{
+    color: #000;
+    font-family: sora;
+    font-size: 20px;
+}
+
+.tarjeta-desplegable > img{
+    height: 30vh;
+    width: 30vw;
+    justify-content: center;
+}
+
+.tarjeta-desplegable1 :target{
+    color: rgb(62, 32, 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .consulta-control
+{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    padding: 2vh;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 3vh;
+}
+
+.consulta-control > img{
+    height: 30vh;
+    width: 30vw;
+}
+
+.primera-consulta{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    padding: 2vh;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 3vh;
+}
+
+.primera-consulta > img{
+    height: 30vh;
+    width: 30vw;
+}
+
+.consulta-urgencia{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    padding: 2vh;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 3vh;
+}
+
+.consulta-urgencia > img{
+    height: 30vh;
+    width: 30vw;
+}
+
+.tarjeta-desplegable1 > div > p{
+    color: #000;
+    font-family: sora;
+    font-size: 20px;
+}
 
 
-        width:470px;
-        } */
-        /* tercera parte */
 
-        body {
-            font:.7em/1.5 "lucida grande", arial, sans-serif;
-            background:#f3faff;
-            }
-            div {
-            background:#fff;
-            border-radius:5px;
-            box-shadow:0 1px 3px rgba(0,0,0,.3);
-            }
-            h1 {
-            font-size:1em;
-            color: rgb(138, 87, 39) ;
-            }
-            a {
+section > a {
+    /* display:block; */
+    height:35px;
+    line-height:35px;
+    background:linear-gradient(#eee, #ccc);
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:0 1px 0 rgba(255,255,255,.5);
+    border-bottom:1px solid #aaa; 
+}
 
-           
-            display:block;
-            height:23px;
-            line-height:23px;
-            background:linear-gradient(#eee, #ccc);
-            color:#333;
-            text-decoration:none;
-            text-align:center;
-            text-shadow:0 1px 0 rgba(255,255,255,.5);
-            border-bottom:1px solid #aaa;
-            }
-            #intro {
-            border-radius:2px 2px 0 0;
-            }
-            #contact {
-            border-radius:0 0 3px 3px;
-            }
-            a:hover, a:focus {
-            opacity:.6;
-            }
-            a:active {
-            background:linear-gradient(#ccc, #ddd);
-            color:#000;
-            }
-            h2{
-                /* color: #0094da;  */
-                color: rgb(71, 45, 20) ;
-                
-            }
-            h3{
-                color: rgb(7, 137, 160);
-                background:linear-gradient(#ccc, #ddd);
-                background:#fff;
-                border-radius:5px;
-                box-shadow:0 1px 5px rgba(238, 23, 23, 0.3)
-              
-            }
+#intro {
+    border-radius: 2px 2px 0 0;
+}
 
-            .img-dec{
-     
+#contact {
+    border-radius: 0 0 3px 3px;
+}
 
-                /* background-color: #fff;
-                border:10px;
-                border-radius:8px; 
-                height: 40px;
-                /* width: 100%; */
-                /* padding: 6px;  */
-                width: 16vw;
-                height: 10vh;
-                border-radius: 7px;}
-            a{color: blue;
-                }
+section > a:hover,
+section > a:focus {
+    opacity: .6;
+}
+
+section > a:active {
+    background: linear-gradient(#ccc, #ddd);
+    color: #000;
+}
+
+h2 {
+    color: #0094da;
+
+}
+
+
+
+.img-dec {
+    width: 40px;
+    height: 30px;
+    border-radius: 7px;
+}

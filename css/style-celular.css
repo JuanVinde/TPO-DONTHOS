@@ -49,7 +49,7 @@
     }
 
     .abrir-menu-responsive{
-        background-image: url(/TPO-DONTHOS/img/barra-de-menus.png);
+        background-image: url(/img/barra-de-menus.png);
         background-repeat: no-repeat;
         background-position: center;
         margin: 2vh;
@@ -65,7 +65,7 @@
 
 /* imagen principal */
 .contenedor-img{
-    background-image: url(/TPO-DONTHOS/img/imagen-principal-celu.png);
+    background-image: url(/img/imagen-principal-celu.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -204,7 +204,7 @@
 
 
 .sector1{
-    background-image: url(/TPO-DONTHOS/img/consultaonline.png);   
+    background-image: url(/img/consultaonline.png);   
 
     background-repeat: no-repeat;
     background-position: center;
@@ -224,7 +224,7 @@
 }
 
 .sector2{
-    background-image: url(/TPO-DONTHOS/img/urgencia\ y\ alivo\ del\ dolor.png);
+    background-image: url(/img/urgencia\ y\ alivo\ del\ dolor.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -241,7 +241,7 @@
 }
 
 .sector3{
-    background-image: url(/TPO-DONTHOS/img/radiografia.png);
+    background-image: url(/img/radiografia.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -258,7 +258,7 @@
 }
 
 .sector4{
-    background-image: url(/TPO-DONTHOS/img/odontopediatria.png);
+    background-image: url(/img/odontopediatria.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -275,7 +275,7 @@
 }
 
 .sector5{
-    background-image: url(/TPO-DONTHOS/img/endodoncia\ 1.png);
+    background-image: url(/img/endodoncia\ 1.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -292,7 +292,7 @@
 }
 
 .sector6{
-    background-image: url(/TPO-DONTHOS/img/implante.png);
+    background-image: url(/img/implante.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -309,51 +309,51 @@
 }
 
 .background-1{
-    background-image: url(/TPO-DONTHOS/img/arreglo\ de\ carie.png);
+    background-image: url(/img/arreglo\ de\ carie.png);
 }
 
 .background-2{
-    background-image: url(/TPO-DONTHOS/img/limpieza\ dental.png);
+    background-image: url(/img/limpieza\ dental.png);
 }
 
 .background-3{
-    background-image: url(/TPO-DONTHOS/img/periodoncia.png);
+    background-image: url(/img/periodoncia.png);
 }
 
 .background-4{
-    background-image: url(/TPO-DONTHOS/img/odontologia\ preventiva.png);
+    background-image: url(/img/odontologia\ preventiva.png);
 }
 
 .background-5{
-    background-image: url(/TPO-DONTHOS/img/blanquiamento.png);
+    background-image: url(/img/blanquiamento.png);
 }
 
 .background-6{
-    background-image: url(/TPO-DONTHOS/img/extraccion\ dental.png);
+    background-image: url(/img/extraccion\ dental.png);
 }
 
 .background-7{
-    background-image: url(/TPO-DONTHOS/img/reconstruccion\ estetica.png);
+    background-image: url(/img/reconstruccion\ estetica.png);
 }
 
 .background-8{
-    background-image: url(/TPO-DONTHOS/img/endodoncia\ 1.png);
+    background-image: url(/img/endodoncia\ 1.png);
 }
 
 .background-9{
-    background-image: url(/TPO-DONTHOS/img/protesis.png);
+    background-image: url(/img/protesis.png);
 }
 
 .background-10{
-    background-image: url(/TPO-DONTHOS/img/implante.png);
+    background-image: url(/img/implante.png);
 }
 
 .background-11{
-    background-image: url(/TPO-DONTHOS/img/ortodoncia.png);
+    background-image: url(/img/ortodoncia.png);
 }
 
 .background-12{
-    background-image: url(/TPO-DONTHOS/img/implante.png);
+    background-image: url(/img/implante.png);
 }
 
 /* ------SECTOR CONTACTANOS------------ */
@@ -425,7 +425,7 @@
 }
 
 #boton-wsp{
-    background-image: url(/TPO-DONTHOS/img/botondewsp.png);
+    background-image: url(/img/botondewsp.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #4CAF50; 

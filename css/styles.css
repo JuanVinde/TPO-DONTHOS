@@ -9,12 +9,7 @@ paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 bot
     --cfondo: #0094da;
     --cfondo1: #e8edf18e;
     --main-footer: #1c1c1c;
-    /* --cfondo1: #57585c; */
-
     --botones: #f48347;
-
-    
-
 }
 *{
     margin: 0;
@@ -37,138 +32,102 @@ paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 bot
 
 .header{
     grid-area: header;
-    
-    /* background-color:  #659FF5; */
-    /* background-color:  #0a0a0a; */
-    /* background-color: #2C2C2C; */
-    background-color: var(--main-footer);
-    height: 75px;
 
-    display: flex;
-    
+
+background-color: var(--main-footer);
+height: 75px;
+display: flex;
+align-items: center;
+gap: 14vw;
 }
 
-.abrir-menu-responsive{
-    display: none;
+.nav{
+display: flex;
+align-items: center;
+gap: 14vw;
 }
 
-.cerrar-menu-responsive{
-    display: none;
+.nav-list{
+display: flex;
+justify-content: space-around;
+width: 40vw;
 }
 
-
-.contenedor-nav-logo{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15vw;
-    margin-left: 2vw;
-        
+.nav-list > li > a{
+font-family: 'sora';
+text-decoration: none;
+color:#fff;
 }
 
- 
- .img-logo{
-     
-
-    /* background-color: #fff;
-    border:10px;
-    border-radius:8px; 
-    height: 40px;
-    /* width: 100%; */
-    /* padding: 6px;  */
-    width: 11vw;
-    height: 9vh;
-    border-radius: 7px;
-    
-
+.nav-list > li > a:hover{
+color: #0094da;
 }
 
- .img-logo:hover{
-
-     box-shadow: 3px 3px #ffffff;
-
-}
-
-.contenedor-nav{
-    
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;  
-    margin-left: 15vw;
-
-}
-
-.contenedor-nav > .barra-nav{
-
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    font-size: 15px;
-    margin-left:2vw;
-    
-    font-family: 'Sora', sans-serif;
- 
+.nav-list-redes{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 15vw;
 }
 
 
-.contenedor-nav > a:hover{
-    color: #0094da;
+
+.img-logo{
+width:12vw;
+height:8vh;
+border-radius: 5%;
+margin-left: 2vw;
 }
 
-.contenedor-nav-redes{
-    
-    height: 100%;
-    width: 18%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 16vw;
-
+.abrir-menu-responsive, .cerrar-menu-responsive{
+display: none;
 }
+
+li{
+list-style: none;
+}
+
 
 .facebook{
 
-    height: 5.5vh;
-    width: 32px;
-    
-    background-image: url(/TPO-DONTHOS/img/facebook-blanco\ \(1\).png);
-    background-size: 32px ;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+height: 5.5vh;
+width: 32px;
+
+background-image: url(/img/facebook-blanco\ \(1\).png);
+background-size: 32px ;
+background-repeat: no-repeat;
+background-position: center;
+
 }
 .instagram{
 
-    height: 5.5vh;
-    width: 32px;
-    background-image: url(/TPO-DONTHOS/img/instagram-blanco.png);
-    background-size: 32px;
-    background-position: center;
-    background-repeat: no-repeat;
-      
+height: 5.5vh;
+width: 32px;
+background-image: url(/img/instagram-blanco.png);
+background-size: 32px;
+background-position: center;
+background-repeat: no-repeat;
+  
 }
 .whatsapp{
 
-    height: 5.5vh;
-    width: 32px;
-    
-    background-image: url(/TPO-DONTHOS/img/whatsapp-blanco.png);
-    background-size: 32px;
-    background-position: center;
-    background-repeat: no-repeat;
-      
+height: 5.5vh;
+width: 32px;
+
+background-image: url(/img/whatsapp-blanco.png);
+background-size: 32px;
+background-position: center;
+background-repeat: no-repeat;
+  
 }
 .gmail{
 
-    height: 5.5vh;
-    width: 32px;
-    background-image: url(/TPO-DONTHOS/img/gmail-blanco.png);
-    background-position: center;
-    background-repeat: no-repeat;
-  
+height: 5.5vh;
+width: 32px;
+background-image: url(/img/gmail-blanco.png);
+background-position: center;
+background-repeat: no-repeat;
+
 }
 
 
@@ -200,7 +159,7 @@ main > .contenedor-img{
 
 
     width: 100%;
-    background-image: url(/TPO-DONTHOS/img/Rectangle\ 1.png);
+    background-image: url(/img/Rectangle\ 1.png);
     
     background-size: cover;
     background-repeat: no-repeat; 
@@ -327,7 +286,7 @@ main > .contenedor-img{
 
 
 .sector1{
-    background-image: url(/TPO-DONTHOS/img/consultaonline.png);   
+    background-image: url(/img/consultaonline.png);   
 
     background-repeat: no-repeat;
     background-position: center;
@@ -347,7 +306,7 @@ main > .contenedor-img{
 }
 
 .sector2{
-    background-image: url(/TPO-DONTHOS/img/urgencia\ y\ alivo\ del\ dolor.png);
+    background-image: url(/img/urgencia\ y\ alivo\ del\ dolor.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -364,7 +323,7 @@ main > .contenedor-img{
 }
 
 .sector3{
-    background-image: url(/TPO-DONTHOS/img/radiografia.png);
+    background-image: url(/img/radiografia.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -381,7 +340,7 @@ main > .contenedor-img{
 }
 
 .sector4{
-    background-image: url(/TPO-DONTHOS/img/odontopediatria.png);
+    background-image: url(/img/odontopediatria.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -398,7 +357,7 @@ main > .contenedor-img{
 }
 
 .sector5{
-    background-image: url(/TPO-DONTHOS/img/endodoncia\ 1.png);
+    background-image: url(/img/endodoncia\ 1.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -415,7 +374,7 @@ main > .contenedor-img{
 }
 
 .sector6{
-    background-image: url(/TPO-DONTHOS/img/implante.png);
+    background-image: url(/img/implante.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -432,51 +391,50 @@ main > .contenedor-img{
 }
 
 .background-1{
-    background-image: url(/TPO-DONTHOS/img/arreglo\ de\ carie.png);
+    background-image: url(/img/arreglo\ de\ carie.png);
 }
 
 .background-2{
-    background-image: url(/TPO-DONTHOS/img/limpieza\ dental.png);
+    background-image: url(/img/limpieza\ dental.png);
 }
 
 .background-3{
-    background-image: url(/TPO-DONTHOS/img/periodoncia.png);
+    background-image: url(/img/periodoncia.png);
 }
 
 .background-4{
-    background-image: url(/TPO-DONTHOS/img/odontologia\ preventiva.png);
+    background-image: url(/img/odontologia\ preventiva.png);
 }
-
 .background-5{
-    background-image: url(/TPO-DONTHOS/img/blanquiamento.png);
+    background-image: url(/img/blanquiamento.png);
 }
 
 .background-6{
-    background-image: url(/TPO-DONTHOS/img/extraccion\ dental.png);
+    background-image: url(/img/extraccion\ dental.png);
 }
 
 .background-7{
-    background-image: url(/TPO-DONTHOS/img/reconstruccion\ estetica.png);
+    background-image: url(/img/reconstruccion\ estetica.png);
 }
 
 .background-8{
-    background-image: url(/TPO-DONTHOS/img/endodoncia\ 1.png);
+    background-image: url(/img/endodoncia\ 1.png);
 }
 
 .background-9{
-    background-image: url(/TPO-DONTHOS/img/protesis.png);
+    background-image: url(/img/protesis.png);
 }
 
 .background-10{
-    background-image: url(/TPO-DONTHOS/img/implante.png);
+    background-image: url(/img/implante.png);
 }
 
 .background-11{
-    background-image: url(/TPO-DONTHOS/img/ortodoncia.png);
+    background-image: url(/img/ortodoncia.png);
 }
 
 .background-12{
-    background-image: url(/TPO-DONTHOS/img/implante.png);
+    background-image: url(/img/implante.png);
 }
 
 /* -------SECTOR CONTACTANOS--------- */
@@ -543,7 +501,7 @@ main > .contenedor-img{
 }
 
 #boton-wsp{
-    background-image: url(/TPO-DONTHOS/img/botondewsp.png);
+    background-image: url(/img/botondewsp.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #4CAF50; /* Color de fondo */

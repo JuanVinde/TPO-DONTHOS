@@ -1,3 +1,7 @@
+:root{
+    --main-footer: #1c1c1c;
+}
+
 * {
     font-family: 'Sora', sans-serif;
 }
@@ -61,7 +65,7 @@
 .facebook {
     height: 5.5vh;
     width: 32px;
-    background-image: url(facebook.png);
+    background-image: url(/img/facebook-blanco\ \(1\).png);
     background-size: 32px;
     background-repeat: no-repeat;
     background-position: center;
@@ -69,7 +73,7 @@
 .instagram {
     height: 5.5vh;
     width: 32px;
-    background-image: url(instagram.png);
+    background-image: url(/img/instagram-blanco.png);
     background-size: 32px;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,7 +81,7 @@
 .whatsapp {
     height: 5.5vh;
     width: 32px;
-    background-image: url(whatsapp.png);
+    background-image: url(/img/whatsapp-blanco.png);
     background-size: 32px;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,7 +89,7 @@
 .gmail {
     height: 5.5vh;
     width: 32px;
-    background-image: url(gmail.png);
+    background-image: url(/img/gmail-blanco.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -123,7 +127,7 @@ textarea{
     max-width: 100%;
 }
 /* --------------------------creacion del footer----------------------------------------------------------- */
-footer{
+/* footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -196,4 +200,61 @@ footer{
 .insta{
     height: 32px;
     width:32px;
+} */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--main-footer);  
 }
+
+.contenedor-redes-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 18vw;
+
+}
+
+
+.contenedor-texto-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-footer{
+    width: 15vw;
+    height: 11vh;
+    border-radius: 7px;
+    margin-top: 2vh;
+}
+
+.contenedor-texto-f > h4,p {
+    color: #ffffffd0;
+}
+
+.contenedor-texto-f > h4{
+    margin-top: 0px;
+}
+ .contenedor-texto-f {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contenedor-grupo{
+    
+}
+.contenedor-grupo>h5{
+    font-family: 'sora','sans-serift';
+    color: #fff;
+    font-size: 20px;
+    padding: 2vh 0;
+    text-align: start;
+}
+
+.contenedor-grupo>ul>li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3vw;
+    color: #fff;
+    list-style-type: none;
+} 

@@ -11,55 +11,149 @@
         
     }
     /* ----------------------------------MENU RESPONSIVE---------------------- */
-    .header{ 
+    header{
+        grid-area: header;
+    
+        background-color: var(--main-footer);
+        height: 75px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 10vh; /* Ajusta la altura según tus necesidades */
+    }
+
+    .abrir-menu-responsive,
+    .cerrar-menu-responsive{
+        display: block;
+    }
+    
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1vh;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
         background-color: var(--main-footer);
-        } 
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .visible{
+        opacity: 1;
+        visibility: visible;
+       
+    }
+
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
     
-        .cerrar-menu-responsive{
-            display: none;
-        }
+    .nav-list > li > a{
+        font-family: 'sora';
+        text-decoration: none;
+        color:#fff;
+    }
     
-        .contenedor-nav{
-            display: none;
-        }
+    .nav-list > li > a:hover{
+        color: #0094da;
+    }
+    
+    .nav-list-redes{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap:2vw;
+        margin-top: 4vh;
+    }
+    
+    .abrir-menu-responsive{
+        margin-right: 4vw;
+        background-image: url(/img/menu\ \(1\).png);
+        height: 32px;
+        width: 32px;
+        border-radius: 10%;
+        background-color: var(--main-footer);
+        border: none;
+    }
+
+    .cerrar-menu-responsive{
+        margin-right: 23vw;
+        margin-bottom: 4vh;
+        background-image: url(/img/volver-flecha.png);
+        height: 32px;
+        width: 32px;
+        border-radius: 10%;
+        background-color: var(--main-footer);
+        border: none;
+    }
+    
+    .img-logo{
+        width:12vw;
+        height:8vh;
+        border-radius: 5%;
+        margin-left: 4vw;
+    }
+    
+    li{
+        list-style: none;
+    }
+    
+    
+    .facebook{
+    
+        height: 7vh;
+        width: 32px;
         
-        .contenedor-nav-redes{
-            display: none;
-        }
+        background-image: url(/img/facebook-blanco\ \(1\).png);
+        background-size: 32px ;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    .instagram{
     
-        .img-logo{
-            border-radius: 10%;
-            box-shadow: 2px 3px #cecece;
-            height:35px;
-            width: 105px;
-            text-align: center;
-            margin: 2vh;
-            padding: 3px;
-            background-color: #fff;
-        }
+        height: 7vh;
+        width: 32px;
+        background-image: url(/img/instagram-blanco.png);
+        background-size: 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+          
+    }
+    .whatsapp{
     
-        .abrir-menu-responsive{
-            background-image: url(/TPO-DONTHOS/img/barra-de-menus.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            margin: 2vh;
-            height: 30px;
-            width: 32px;
-            border-radius: 20%;
-            background-color: #fff;
-            border: 1px solid #cecece;
-        }
+        height: 7vh;
+        width: 32px;
+        
+        background-image: url(/img/whatsapp-blanco.png);
+        background-size: 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+          
+    }
+    .gmail{
+    
+        height: 7vh;
+        width: 32px;
+        background-image: url(/img/gmail-blanco.png);
+        background-position: center;
+        background-repeat: no-repeat;
+      
+    }
     
         
     /* -------------------------------MAIN RESPONSIVE CELULAR------------------ */
     
     /* imagen principal */
     .contenedor-img{
-        background-image: url(/TPO-DONTHOS/img/imagen-principal-celu.png);
+        background-image: url(/img/imagen-principal-celu.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -199,7 +293,7 @@
     
     
     .sector1{
-        background-image: url(/TPO-DONTHOS/img/consultaonline.png);   
+        background-image: url(/img/consultaonline.png);   
     
         background-repeat: no-repeat;
         background-position: center;
@@ -219,7 +313,7 @@
     }
     
     .sector2{
-        background-image: url(/TPO-DONTHOS/img/urgencia\ y\ alivo\ del\ dolor.png);
+        background-image: url(/img/urgencia\ y\ alivo\ del\ dolor.png);
     
         background-repeat: no-repeat;
         background-position: center;
@@ -236,7 +330,7 @@
     }
     
     .sector3{
-        background-image: url(/TPO-DONTHOS/img/radiografia.png);
+        background-image: url(/img/radiografia.png);
     
         background-repeat: no-repeat;
         background-position: center;
@@ -253,7 +347,7 @@
     }
     
     .sector4{
-        background-image: url(/TPO-DONTHOS/img/odontopediatria.png);
+        background-image: url(/img/odontopediatria.png);
     
         background-repeat: no-repeat;
         background-position: center;
@@ -270,7 +364,7 @@
     }
     
     .sector5{
-        background-image: url(/TPO-DONTHOS/img/endodoncia\ 1.png);
+        background-image: url(/img/endodoncia\ 1.png);
     
         background-repeat: no-repeat;
         background-position: center;
@@ -287,7 +381,7 @@
     }
     
     .sector6{
-        background-image: url(/TPO-DONTHOS/img/implante.png);
+        background-image: url(/img/implante.png);
     
         background-repeat: no-repeat;
         background-position: center;
@@ -304,51 +398,51 @@
     }
     
     .background-1{
-        background-image: url(/TPO-DONTHOS/img/arreglo\ de\ carie.png);
+        background-image: url(/img/arreglo\ de\ carie.png);
     }
     
     .background-2{
-        background-image: url(/TPO-DONTHOS/img/limpieza\ dental.png);
+        background-image: url(/img/limpieza\ dental.png);
     }
     
     .background-3{
-        background-image: url(/TPO-DONTHOS/img/periodoncia.png);
+        background-image: url(/img/periodoncia.png);
     }
     
     .background-4{
-        background-image: url(/TPO-DONTHOS/img/odontologia\ preventiva.png);
+        background-image: url(/img/odontologia\ preventiva.png);
     }
     
     .background-5{
-        background-image: url(/TPO-DONTHOS/img/blanquiamento.png);
+        background-image: url(/img/blanquiamento.png);
     }
     
     .background-6{
-        background-image: url(/TPO-DONTHOS/img/extraccion\ dental.png);
+        background-image: url(/img/extraccion\ dental.png);
     }
     
     .background-7{
-        background-image: url(/TPO-DONTHOS/img/reconstruccion\ estetica.png);
+        background-image: url(/img/reconstruccion\ estetica.png);
     }
     
     .background-8{
-        background-image: url(/TPO-DONTHOS/img/endodoncia\ 1.png);
+        background-image: url(/img/endodoncia\ 1.png);
     }
     
     .background-9{
-        background-image: url(/TPO-DONTHOS/img/protesis.png);
+        background-image: url(/img/protesis.png);
     }
     
     .background-10{
-        background-image: url(/TPO-DONTHOS/img/implante.png);
+        background-image: url(/img/implante.png);
     }
     
     .background-11{
-        background-image: url(/TPO-DONTHOS/img/ortodoncia.png);
+        background-image: url(/img/ortodoncia.png);
     }
     
     .background-12{
-        background-image: url(/TPO-DONTHOS/img/implante.png);
+        background-image: url(/img/implante.png);
     }
     
     /* ------SECTOR CONTACTANOS------------ */
@@ -420,7 +514,7 @@
     }
     
     #boton-wsp{
-        background-image: url(/TPO-DONTHOS/img/botondewsp.png);
+        background-image: url(/img/botondewsp.png);
         background-repeat: no-repeat;
         background-position: center;
         background-color: #4CAF50; 
