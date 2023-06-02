@@ -262,8 +262,8 @@ main > .contenedor-img{
 .sector1, .sector2, .sector3,
 .sector4, .sector5,
 .sector6{
-    width: 320px;
-    height: 250px;
+    width: 20vw;
+    height: 33vh;
     margin:2vh auto;
    
 

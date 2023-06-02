@@ -50,13 +50,14 @@ a > h1 {
     background-color: #fff;
     border-radius: 10px;
     margin: 2vh;
-    height: 60vh;
+    /* height: 60vh; */
 }
 
 .tarjeta-desplegable > p{
     color: #000;
     font-family: sora;
     font-size: 20px;
+    width: 50%;
 }
 
 .tarjeta-desplegable > img{
@@ -104,25 +105,11 @@ a > h1 {
     width: 30vw;
 }
 
-.consulta-urgencia{
-    display: flex;
-    align-items: center;
-    gap: 3vh;
-    padding: 2vh;
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 3vh;
-}
-
-.consulta-urgencia > img{
-    height: 30vh;
-    width: 30vw;
-}
-
 .tarjeta-desplegable1 > div > p{
     color: #000;
     font-family: sora;
     font-size: 20px;
+    width: 50%;
 }
 
 
