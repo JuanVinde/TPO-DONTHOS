@@ -1,5 +1,5 @@
 /* TABLET */
-@media screen and (max-width: 1000px) and (min-width:500px){
+@media screen and (max-width: 1200px) and (min-width:500px){
     .container{
         grid-template-areas:
         "header header header header"

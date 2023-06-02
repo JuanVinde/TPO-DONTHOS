@@ -16,7 +16,7 @@ paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 bot
     padding: 0;
 }
 
-@media screen and (min-width:1001px){
+@media screen and (min-width:1200px){
 .container{
     grid-template-areas:
     "header header header header"
@@ -248,20 +248,23 @@ main > .contenedor-img{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 70vw;
+    width: 65vw;
     margin: 4vh auto;
    
     /* overflow: hidden; */
 }
 
+.contenedor-sectores > a{
+    text-decoration: none;
+    color: #0094da;
+}
+
 .sector1, .sector2, .sector3,
 .sector4, .sector5,
 .sector6{
-    /* background-color: aqua; */
-    width: 250px;
-    height: 200px;
+    width: 320px;
+    height: 250px;
     margin:2vh auto;
-    /* border: solid ; */
    
 
     background-repeat: no-repeat;
@@ -276,7 +279,6 @@ main > .contenedor-img{
 .sector1:hover, .sector2:hover, .sector3:hover,
 .sector4:hover, .sector5:hover,
 .sector6:hover{
-    /* background-color: #f7f4f4ce; */
     transform: scale(1.1,1.1);
     background-color:#48484813;
     background-size: 80%;

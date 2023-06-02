@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+@media screen and (min-width:1200px){
 main{
     background-color:  #e8edf18e;;
 }
@@ -157,8 +158,10 @@ section > a:active {
 }
 
 h2 {
+    text-align: center;
     color: #0094da;
-
+    font-family: sora;
+    font-size: 30px;
 }
 
 
@@ -167,4 +170,6 @@ h2 {
     width: 40px;
     height: 30px;
     border-radius: 7px;
+}
+
 }

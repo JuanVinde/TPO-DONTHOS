@@ -5,7 +5,7 @@
 * {
     font-family: 'Sora', sans-serif;
 }
-.header {
+ .header {
     grid-area: header;
     /* background-color:  #659FF5; */
     /* background-color:  #0a0a0a; */
@@ -92,7 +92,7 @@
     background-image: url(/img/gmail-blanco.png);
     background-position: center;
     background-repeat: no-repeat;
-}
+} 
 .box{
     background-color: lightgray;
     border-radius: 7px;
@@ -202,7 +202,9 @@ textarea{
     width:32px;
 } */
 
-footer{
+
+/* --------------------------mi footer------------------- */
+ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -257,4 +259,4 @@ footer{
     padding-left: 3vw;
     color: #fff;
     list-style-type: none;
-} 
+}  

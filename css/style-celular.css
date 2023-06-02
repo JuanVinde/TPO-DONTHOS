@@ -17,48 +17,144 @@
     }
      
     /* ----------------------------------MENU RESPONSIVE---------------------- */
-   .header{ 
+
+ header{
+    grid-area: header;
+
+    background-color: var(--main-footer);
+    height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh; /* Ajusta la altura según tus necesidades */
+}
+
+.abrir-menu-responsive,
+.cerrar-menu-responsive{
+    display: block;
+}
+
+.nav{
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1vh;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
     background-color: var(--main-footer);
-    } 
+    padding: 1rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+}
 
-    .cerrar-menu-responsive{
-        display: none;
-    }
+.visible{
+    opacity: 1;
+    visibility: visible;
+   
+}
 
-    .contenedor-nav{
-        display: none;
-    }
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.nav-list > li > a{
+    font-family: 'sora';
+    text-decoration: none;
+    color:#fff;
+}
+
+.nav-list > li > a:hover{
+    color: #0094da;
+}
+
+.nav-list-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3vw;
+    margin-top: 2vh;
+    width: 100%;
+}
+
+.abrir-menu-responsive{
+    margin-right: 4vw;
+    background-image: url(/img/menu\ \(1\).png);
+    height: 32px;
+    width: 32px;
+    border-radius: 10%;
+    background-color: var(--main-footer);
+    border: none;
+}
+
+.cerrar-menu-responsive{
+    margin-right: 40vw;
+    margin-bottom: 2vh;
+    background-image: url(/img/volver-flecha.png);
+    height: 32px;
+    width: 32px;
+    border-radius: 10%;
+    background-color: var(--main-footer);
+    border: none;
+}
+
+.img-logo{
+    width:15vw;
+    height:6vh;
+    border-radius:5px;
+    margin-left: 4vw;
+}
+
+li{
+    list-style: none;
+}
+
+
+.facebook{
+
+    height: 7vh;
+    width: 32px;
     
-    .contenedor-nav-redes{
-        display: none;
-    }
+    background-image: url(/img/facebook-blanco\ \(1\).png);
+    background-size: 32px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.instagram{
 
-    .img-logo{
-        border-radius: 30%;
-        box-shadow: 2px 3px #cecece;
-        height:5vh;
-        width: 20vw;
-        text-align: center;
-        margin: 2vh;
-        padding: 3px;
-        background-color: #fff;
-    }
+    height: 7vh;
+    width: 32px;
+    background-image: url(/img/instagram-blanco.png);
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+      
+}
+.whatsapp{
 
-    .abrir-menu-responsive{
-        background-image: url(/img/barra-de-menus.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        margin: 2vh;
-        height: 30px;
-        width: 32px;
-        border-radius: 20%;
-        background-color: #fff;
-        border: 1px solid #cecece;
-    }
+    height: 7vh;
+    width: 32px;
+    
+    background-image: url(/img/whatsapp-blanco.png);
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+      
+}
+.gmail{
+
+    height: 7vh;
+    width: 32px;
+    background-image: url(/img/gmail-blanco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
 
     
 /* -------------------------------MAIN RESPONSIVE CELULAR------------------ */
