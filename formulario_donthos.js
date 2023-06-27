@@ -30,7 +30,7 @@ let footerjs= `
 <ul>
     <li>Juan Cruz, Vinderola Breppe</li>
     <li>Gabriel, Lombardi</li>
-    <li>Sebastian</li>
+    <li>Sebastian, Sparcino</li>
 </ul>
 </div>`
 
