@@ -3,7 +3,7 @@ let footerjs= `
 
                 
                 
-<a href="index.html"><img src="/img/logo-final.png" alt="Logo" class="img-footer"> </a>
+<a href="index.html"><img src="img/logo-final.png" alt="Logo" class="img-footer"> </a>
 
 <p>copyrith@2023 Donthos</p>
 

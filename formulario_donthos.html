@@ -8,38 +8,41 @@
     <title>formulario_donthos</title>
     <link rel="stylesheet" href="styleformulario.css">
     
-    <link rel="import" href="https://fonts.google.com/specimen/Sora?query=sora">
+    <!-- Agrego fuente de letra sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;400;700&display=swap" rel="stylesheet">
+
     <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 
 <body>
     <header>
         <header class="header">
-            <div class="contenedor-nav-logo">
-                <a href="index.html" class="logo">
-                    <img src="fondo_blanco.jpeg" alt="" class="img-logo">
+            <a href="index.html">
+                <img class="img-logo" src="img/logo-final.png" alt="Logo">
                 </a>
-            </div>
-            <div class="contenedor-nav">
-                <a href="index.html" class="barra-nav">Inicio</a>
-                <a href="SobreNosotros.html" class="barra-nav" class="sobre-nosotros">Sobre Nosotros</a>
-                <a href="cobertura.html" class="barra-nav">Nuestras Coberturas</a>
-                <a href="formulario_donthos.html" class="barra-nav">Contacto</a>
-            </div>
-            <div class="contenedor-nav-redes">
-                <a href="https://www.facebook.com/profile.php?id=100064057568624" target="_blank" class="facebook">
-                </a>
-                <a href="https://www.instagram.com/" target="_blank" class="instagram">
-                </a>
-                <a href="https://www.whatsapp.com/?lang=es" target="_blank" class="whatsapp">
-                </a>
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkxGsLHzRrgKDPVhnRsdGvRfMcZhVTsQtBLZXDqmCjMvrGlCdslrQPcmJLLDCMTsBjVxWR"
-                    target="_blank" class="gmail">
-                </a>
-            </div> 
+                <button id="abrir" class="abrir-menu-responsive"></button>
+            
+                  
+                   
+            <nav class="nav" id="nav">
+                <button id="cerrar" class="cerrar-menu-responsive"></button>
+                <ul class="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="cobertura.html">Nuestras Coberturas</a></li>
+                    <li><a href="formulario_donthos.html">Contacto</a></li>
+                </ul>
+                <div class="nav-list-redes">
+                    <a href="https://www.facebook.com/profile.php?id=100064057568624" class="facebook" target="_blank"></a>
+                    <a href="https://www.instagram.com/" class="instagram" target="_blank"></a>
+                    <a href="https://www.whatsapp.com" class="whatsapp" target="_blank"></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkxGsLHzRrgKDPVhnRsdGvRfMcZhVTsQtBLZXDqmCjMvrGlCdslrQPcmJLLDCMTsBjVxWR" class="gmail" target="_blank"></a>
+                 </div>
         </header>
         <main>
-            <div class="containedor.general">
+            <div class="containedor-general">
                 <div class="ubicacion">
                     <h3>DONTHOS SEGUROS ODONTOLOGICOS</h3>
                     <ul>
@@ -54,7 +57,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            
             <section>
                 <div class="usos">
                     <div class="box">
@@ -127,7 +130,7 @@
                 </div>
 
             </section>
-
+        </div>
         </main>
 
         <footer>
