@@ -75,7 +75,7 @@ list-style: none;
 height: 5.5vh;
 width: 32px;
 
-background-image: url(/img/facebook-blanco\ \(1\).png);
+background-image: url(https://i.ibb.co/xj9JSp0/facebook-blanco-1.png);
 background-size: 32px ;
 background-repeat: no-repeat;
 background-position: center;
@@ -85,7 +85,7 @@ background-position: center;
 
 height: 5.5vh;
 width: 32px;
-background-image: url(/img/instagram-blanco.png);
+background-image: url(https://i.ibb.co/X4MH3xF/instagram-blanco.png);
 background-size: 32px;
 background-position: center;
 background-repeat: no-repeat;
@@ -96,7 +96,7 @@ background-repeat: no-repeat;
 height: 5.5vh;
 width: 32px;
 
-background-image: url(/img/whatsapp-blanco.png);
+background-image: url(https://i.ibb.co/gr2pJtY/whatsapp-blanco.png);
 background-size: 32px;
 background-position: center;
 background-repeat: no-repeat;
@@ -106,7 +106,7 @@ background-repeat: no-repeat;
 
 height: 5.5vh;
 width: 32px;
-background-image: url(/img/gmail-blanco.png);
+background-image: url(https://i.ibb.co/bd5fK4b/gmail-blanco.png);
 background-position: center;
 background-repeat: no-repeat;
 
@@ -265,7 +265,7 @@ footer{
     
     .abrir-menu-responsive{
         margin-right: 4vw;
-        background-image: url(/img/menu\ \(1\).png);
+        background-image: url(https://i.ibb.co/JxKgC5p/menu-1.png);
         height: 32px;
         width: 32px;
         border-radius: 10%;
@@ -276,7 +276,7 @@ footer{
     .cerrar-menu-responsive{
         margin-right: 23vw;
         margin-bottom: 4vh;
-        background-image: url(/img/volver-flecha.png);
+        background-image: url(https://i.ibb.co/JjMTKtc/volver-flecha.png);
         height: 32px;
         width: 32px;
         border-radius: 10%;
@@ -464,7 +464,7 @@ header{
 
 .abrir-menu-responsive{
   margin-right: 4vw;
-  background-image: url(/img/menu\ \(1\).png);
+  background-image: url(https://i.ibb.co/JxKgC5p/menu-1.png);
   height: 32px;
   width: 32px;
   border-radius: 10%;
@@ -475,7 +475,7 @@ header{
 .cerrar-menu-responsive{
   margin-right: 40vw;
   margin-bottom: 2vh;
-  background-image: url(/img/volver-flecha.png);
+  background-image: url(https://i.ibb.co/JjMTKtc/volver-flecha.png);
   height: 32px;
   width: 32px;
   border-radius: 10%;
@@ -500,7 +500,7 @@ li{
   height: 7vh;
   width: 32px;
   
-  background-image: url(/img/facebook-blanco\ \(1\).png);
+  background-image: url(https://i.ibb.co/xj9JSp0/facebook-blanco-1.png);
   background-size: 32px ;
   background-repeat: no-repeat;
   background-position: center;
@@ -510,7 +510,7 @@ li{
 
   height: 7vh;
   width: 32px;
-  background-image: url(/img/instagram-blanco.png);
+  background-image: url(https://i.ibb.co/X4MH3xF/instagram-blanco.png);
   background-size: 32px;
   background-position: center;
   background-repeat: no-repeat;
@@ -521,7 +521,7 @@ li{
   height: 7vh;
   width: 32px;
   
-  background-image: url(/img/whatsapp-blanco.png);
+  background-image: url(https://i.ibb.co/gr2pJtY/whatsapp-blanco.png);
   background-size: 32px;
   background-position: center;
   background-repeat: no-repeat;
@@ -531,7 +531,7 @@ li{
 
   height: 7vh;
   width: 32px;
-  background-image: url(/img/gmail-blanco.png);
+  background-image: url(https://i.ibb.co/bd5fK4b/gmail-blanco.png);
   background-position: center;
   background-repeat: no-repeat;
 

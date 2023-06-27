@@ -83,7 +83,7 @@
 
 .abrir-menu-responsive{
     margin-right: 4vw;
-    background-image: url(/img/menu\ \(1\).png);
+    background-image: url(https://i.ibb.co/JxKgC5p/menu-1.png);
     height: 32px;
     width: 32px;
     border-radius: 10%;
@@ -94,7 +94,7 @@
 .cerrar-menu-responsive{
     margin-right: 40vw;
     margin-bottom: 2vh;
-    background-image: url(/img/volver-flecha.png);
+    background-image: url(https://i.ibb.co/JjMTKtc/volver-flecha.png);
     height: 32px;
     width: 32px;
     border-radius: 10%;
@@ -119,7 +119,7 @@ li{
     height: 7vh;
     width: 32px;
     
-    background-image: url(/img/facebook-blanco\ \(1\).png);
+    background-image: url(https://i.ibb.co/xj9JSp0/facebook-blanco-1.png);
     background-size: 32px ;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,7 +129,7 @@ li{
 
     height: 7vh;
     width: 32px;
-    background-image: url(/img/instagram-blanco.png);
+    background-image: url(https://i.ibb.co/X4MH3xF/instagram-blanco.png);
     background-size: 32px;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ li{
     height: 7vh;
     width: 32px;
     
-    background-image: url(/img/whatsapp-blanco.png);
+    background-image: url(https://i.ibb.co/gr2pJtY/whatsapp-blanco.png);
     background-size: 32px;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,7 +150,7 @@ li{
 
     height: 7vh;
     width: 32px;
-    background-image: url(/img/gmail-blanco.png);
+    background-image: url(https://i.ibb.co/bd5fK4b/gmail-blanco.png);
     background-position: center;
     background-repeat: no-repeat;
   
@@ -161,7 +161,7 @@ li{
 
 /* imagen principal */
 .contenedor-img{
-    background-image: url(/img/imagen-principal-celu.png);
+    background-image: url(https://i.ibb.co/t8nXyNZ/imagen-principal-celu.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -220,9 +220,10 @@ li{
     color: #0094da;
 }
 
-.unite :hover{
-    background-color: #e8edf13c;
+.unite:hover{
+    background: linear-gradient(#ccc, #ddd);
 }
+
 
 /* Seccion nuestras coberturas */
 
@@ -268,6 +269,11 @@ li{
     /* overflow: hidden; */
 }
 
+.contenedor-sectores > a{
+    text-decoration: none;
+    color: #0094da;
+}
+
 .sector1, .sector2, .sector3,
 .sector4, .sector5,
 .sector6{
@@ -293,14 +299,14 @@ li{
 .sector6:hover{
     transform: scale(1.1,1.1);
     background-color:#cecece;
-    background-size: 80%;
+    background-size: 20vw 10vh;
     outline: 1px solid #000;
     text-align: center;
 }
 
 
 .sector1{
-    background-image: url(/img/consultaonline.png);   
+    background-image: url(https://i.ibb.co/QQGFSs3/consultaonline.png);   
 
     background-repeat: no-repeat;
     background-position: center;
@@ -320,7 +326,7 @@ li{
 }
 
 .sector2{
-    background-image: url(/img/urgencia\ y\ alivo\ del\ dolor.png);
+    background-image: url(https://i.ibb.co/C7bS27r/urgencia-y-alivo-del-dolor.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -337,7 +343,7 @@ li{
 }
 
 .sector3{
-    background-image: url(/img/radiografia.png);
+    background-image: url(https://i.ibb.co/hdxkykK/radiografia.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -354,7 +360,7 @@ li{
 }
 
 .sector4{
-    background-image: url(/img/odontopediatria.png);
+    background-image: url(https://i.ibb.co/jy78Mn8/odontopediatria.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -371,7 +377,7 @@ li{
 }
 
 .sector5{
-    background-image: url(/img/endodoncia\ 1.png);
+    background-image: url(https://i.ibb.co/fqL1Zqm/endodoncia-1.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -388,7 +394,7 @@ li{
 }
 
 .sector6{
-    background-image: url(/img/implante.png);
+    background-image: url(https://i.ibb.co/gykhQLQ/implante.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -405,51 +411,51 @@ li{
 }
 
 .background-1{
-    background-image: url(/img/arreglo\ de\ carie.png);
+    background-image: url(https://i.ibb.co/3WF6wfc/arreglo-de-carie.png);
 }
 
 .background-2{
-    background-image: url(/img/limpieza\ dental.png);
+    background-image: url(https://i.ibb.co/c8dX61q/limpieza-dental.png);
 }
 
 .background-3{
-    background-image: url(/img/periodoncia.png);
+    background-image: url(https://i.ibb.co/MkzWnjP/periodoncia.png);
 }
 
 .background-4{
-    background-image: url(/img/odontologia\ preventiva.png);
+    background-image: url(https://i.ibb.co/6JQn023/images-3-1.png);
 }
 
 .background-5{
-    background-image: url(/img/blanquiamento.png);
+    background-image: url(https://i.ibb.co/SPfGb93/blanquiamento.png);
 }
 
 .background-6{
-    background-image: url(/img/extraccion\ dental.png);
+    background-image: url(https://i.ibb.co/prTbLR8/extraccion-dental.png);
 }
 
 .background-7{
-    background-image: url(/img/reconstruccion\ estetica.png);
+    background-image: url(https://i.ibb.co/3C5wZf6/reconstruccion-estetica.png);
 }
 
 .background-8{
-    background-image: url(/img/endodoncia\ 1.png);
+    background-image: url(https://i.ibb.co/fqL1Zqm/endodoncia-1.png);
 }
 
 .background-9{
-    background-image: url(/img/protesis.png);
+    background-image: url(https://i.ibb.co/RjQ85Pm/protesis.png);
 }
 
 .background-10{
-    background-image: url(/img/implante.png);
+    background-image: url(https://i.ibb.co/gykhQLQ/implante.png);
 }
 
 .background-11{
-    background-image: url(/img/ortodoncia.png);
+    background-image: url(https://i.ibb.co/T1xG4kX/ortodoncia.png);
 }
 
 .background-12{
-    background-image: url(/img/implante.png);
+    background-image: url(https://i.ibb.co/gykhQLQ/implante.png);
 }
 
 /* ------SECTOR CONTACTANOS------------ */
@@ -458,13 +464,15 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 10vh;
+    height: 15vh;
     background-color: var(--cfondo1);
+}
+.enlace-contacto:hover{
+    background: linear-gradient(#ccc, #ddd);
 }
 .enlace-contacto > a{
     font-family: 'Sora', sans-serif;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 20px;
     text-decoration: none;
     color: #000;
@@ -521,7 +529,7 @@ li{
 }
 
 #boton-wsp{
-    background-image: url(/img/botondewsp.png);
+    background-image: url(https://i.ibb.co/0tdJNHc/botondewsp.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #4CAF50; 

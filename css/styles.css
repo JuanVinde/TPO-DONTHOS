@@ -93,7 +93,7 @@ list-style: none;
 height: 5.5vh;
 width: 32px;
 
-background-image: url(/img/facebook-blanco\ \(1\).png);
+background-image: url(https://i.ibb.co/xj9JSp0/facebook-blanco-1.png);
 background-size: 32px ;
 background-repeat: no-repeat;
 background-position: center;
@@ -103,7 +103,7 @@ background-position: center;
 
 height: 5.5vh;
 width: 32px;
-background-image: url(/img/instagram-blanco.png);
+background-image: url(https://i.ibb.co/X4MH3xF/instagram-blanco.png);
 background-size: 32px;
 background-position: center;
 background-repeat: no-repeat;
@@ -114,7 +114,7 @@ background-repeat: no-repeat;
 height: 5.5vh;
 width: 32px;
 
-background-image: url(/img/whatsapp-blanco.png);
+background-image: url(https://i.ibb.co/gr2pJtY/whatsapp-blanco.png);
 background-size: 32px;
 background-position: center;
 background-repeat: no-repeat;
@@ -124,7 +124,7 @@ background-repeat: no-repeat;
 
 height: 5.5vh;
 width: 32px;
-background-image: url(/img/gmail-blanco.png);
+background-image: url(https://i.ibb.co/bd5fK4b/gmail-blanco.png);
 background-position: center;
 background-repeat: no-repeat;
 
@@ -159,7 +159,7 @@ main > .contenedor-img{
 
 
     width: 100%;
-    background-image: url(/img/Rectangle\ 1.png);
+    background-image: url(https://i.ibb.co/QXPhLVP/Rectangle-1.png);
     
     background-size: cover;
     background-repeat: no-repeat; 
@@ -205,6 +205,10 @@ main > .contenedor-img{
 
 .unite > a > b{
     color: #0094da;
+}
+
+.unite:hover{
+    background: linear-gradient(#ccc, #ddd);
 }
 
 /* ----------parte de servicios----------- */
@@ -281,14 +285,15 @@ main > .contenedor-img{
 .sector6:hover{
     transform: scale(1.1,1.1);
     background-color:#48484813;
-    background-size: 80%;
+    /* background-size: 80%; */
+    background-size: 15vw 25vh;
     outline: 2px solid #6d6c6c62;
     text-align: center;
 }
 
 
 .sector1{
-    background-image: url(/img/consultaonline.png);   
+    background-image: url(https://i.ibb.co/QQGFSs3/consultaonline.png);   
 
     background-repeat: no-repeat;
     background-position: center;
@@ -308,7 +313,7 @@ main > .contenedor-img{
 }
 
 .sector2{
-    background-image: url(/img/urgencia\ y\ alivo\ del\ dolor.png);
+    background-image: url(https://i.ibb.co/4pqBkZ6/Sobre-Nostros-objetivo.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -325,7 +330,7 @@ main > .contenedor-img{
 }
 
 .sector3{
-    background-image: url(/img/radiografia.png);
+    background-image: url(https://i.ibb.co/hdxkykK/radiografia.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -342,7 +347,7 @@ main > .contenedor-img{
 }
 
 .sector4{
-    background-image: url(/img/odontopediatria.png);
+    background-image: url(https://i.ibb.co/jy78Mn8/odontopediatria.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -359,7 +364,7 @@ main > .contenedor-img{
 }
 
 .sector5{
-    background-image: url(/img/endodoncia\ 1.png);
+    background-image: url(https://i.ibb.co/fqL1Zqm/endodoncia-1.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -376,7 +381,7 @@ main > .contenedor-img{
 }
 
 .sector6{
-    background-image: url(/img/implante.png);
+    background-image: url(https://i.ibb.co/gykhQLQ/implante.png);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -393,50 +398,50 @@ main > .contenedor-img{
 }
 
 .background-1{
-    background-image: url(/img/arreglo\ de\ carie.png);
+    background-image: url(https://i.ibb.co/3WF6wfc/arreglo-de-carie.png);
 }
 
 .background-2{
-    background-image: url(/img/limpieza\ dental.png);
+    background-image: url(https://i.ibb.co/c8dX61q/limpieza-dental.png);
 }
 
 .background-3{
-    background-image: url(/img/periodoncia.png);
+    background-image: url(https://i.ibb.co/MkzWnjP/periodoncia.png);
 }
 
 .background-4{
-    background-image: url(/img/odontologia\ preventiva.png);
+    background-image: url(https://i.ibb.co/6JQn023/images-3-1.png);
 }
 .background-5{
-    background-image: url(/img/blanquiamento.png);
+    background-image: url(https://i.ibb.co/SPfGb93/blanquiamento.png);
 }
 
 .background-6{
-    background-image: url(/img/extraccion\ dental.png);
+    background-image: url(https://i.ibb.co/prTbLR8/extraccion-dental.png);
 }
 
 .background-7{
-    background-image: url(/img/reconstruccion\ estetica.png);
+    background-image: url(https://i.ibb.co/3C5wZf6/reconstruccion-estetica.png);
 }
 
 .background-8{
-    background-image: url(/img/endodoncia\ 1.png);
+    background-image: url(https://i.ibb.co/fqL1Zqm/endodoncia-1.png);
 }
 
 .background-9{
-    background-image: url(/img/protesis.png);
+    background-image: url(https://i.ibb.co/RjQ85Pm/protesis.png);
 }
 
 .background-10{
-    background-image: url(/img/implante.png);
+    background-image: url(https://i.ibb.co/gykhQLQ/implante.png);
 }
 
 .background-11{
-    background-image: url(/img/ortodoncia.png);
+    background-image: url(https://i.ibb.co/T1xG4kX/ortodoncia.png);
 }
 
 .background-12{
-    background-image: url(/img/implante.png);
+    background-image: url(https://i.ibb.co/gykhQLQ/implante.png);
 }
 
 /* -------SECTOR CONTACTANOS--------- */
@@ -445,9 +450,12 @@ main > .contenedor-img{
     align-items: center;
     justify-content: center;
     margin: 10px auto;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100px;
     background-color: var(--cfondo1);
+}
+.enlace-contacto:hover{
+    background: linear-gradient(#ccc, #ddd);
 }
 .enlace-contacto > a{
     font-family: 'Sora', sans-serif;
@@ -503,7 +511,7 @@ main > .contenedor-img{
 }
 
 #boton-wsp{
-    background-image: url(/img/botondewsp.png);
+    background-image: url(https://i.ibb.co/0tdJNHc/botondewsp.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #4CAF50; /* Color de fondo */
