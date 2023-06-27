@@ -40,7 +40,7 @@ a > h1 {
     display: none;
 }
 
-/* :target+*/.tarjeta-desplegable { 
+.tarjeta-desplegable { 
     color: rgb(62, 32, 4);
     display: flex;
     justify-content: center;
@@ -57,12 +57,12 @@ a > h1 {
     color: #000;
     font-family: sora;
     font-size: 20px;
-    width: 50%;
+    width: 80%;
 }
 
 .tarjeta-desplegable > img{
-    height: 30vh;
-    width: 30vw;
+    height: 35vh;
+    width: 40vw;
     justify-content: center;
 }
 
@@ -83,11 +83,12 @@ a > h1 {
     background-color: #fff;
     border-radius: 10px;
     margin: 3vh;
+    width: 100%;
 }
 
 .consulta-control > img{
-    height: 30vh;
-    width: 30vw;
+    height: 35vh;
+    width: 35vw;
 }
 
 .primera-consulta{
@@ -98,11 +99,12 @@ a > h1 {
     background-color: #fff;
     border-radius: 10px;
     margin: 3vh;
+    width: 100%;
 }
 
 .primera-consulta > img{
-    height: 30vh;
-    width: 30vw;
+    height: 35vh;
+    width: 35vw;
 }
 
 .tarjeta-desplegable1 > div > p{
