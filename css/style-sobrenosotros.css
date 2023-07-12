@@ -14,7 +14,7 @@ header{
     grid-area: header;
 
     background-color: var(--main-footer);
-    height: 75px;
+    height: 12vh;
     display: flex;
     align-items: center;
     gap: 14vw;
@@ -53,7 +53,7 @@ header{
 
 .img-logo{
     width:12vw;
-    height:8vh;
+    height:50px;
     border-radius: 5%;
     margin-left: 2vw;
 }
@@ -326,7 +326,7 @@ footer{
     
     .img-logo{
         width:12vw;
-        height:8vh;
+        /* height:8vh; */
         border-radius: 5%;
         margin-left: 4vw;
     }
@@ -420,12 +420,13 @@ img{
 }
 
      /* ---------------FOOTER RESPONSIVE-------------------- */
-footer{
+ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap: 3vh;
+    gap: 2vh;
+    margin-top: 3vh;
     background-color: var(--main-footer);
 }
 
@@ -451,12 +452,12 @@ footer{
 .contenedor-redes-footer{
     display: flex;
     justify-content: space-around;
-    gap: 2vw;
+    width: 200px;
 }
 
 .contenedor-redes-footer > a >img{
-    height: 7vh;
-    width: 5vw;
+    height: 32px;
+    width: 32px;
 }
 
 .contenedor-grupo>h5{
@@ -472,7 +473,7 @@ footer{
     padding-left: 3vw;
     color: #fff;
     list-style-type: none;
-}
+} 
 
 }
 
@@ -665,7 +666,8 @@ li{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        gap: 1.5vh;
+        gap: 2vh;
+        margin-top: 3vh;
         background-color: var(--main-footer);
     }
     
@@ -677,8 +679,8 @@ li{
     }
     
     .contenedor-texto-f > a > img{
-        width: 20vw;
-        height: 10vh;
+        width: 40vw;
+        height: 11vh;
         border-radius: 7px;
         margin-top: 2vh;
     }
@@ -691,26 +693,26 @@ li{
     .contenedor-redes-footer{
         display: flex;
         justify-content: space-around;
-        gap: 2vw;
+        width: 200px;
     }
     
     .contenedor-redes-footer > a >img{
-        height: 5vh;
-        width: 5vw;
+        height: 32px;
+        width: 32px;
     }
     
     .contenedor-grupo>h5{
         font-family: 'sora','sans-serift';
         color: #fff;
-        font-size: 17px;
-        /* padding: 1vh 0; */
+        font-size: 20px;
+        margin-bottom: 1vh;
         text-align: start;
     }
     
     .contenedor-grupo>ul>li{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 14px;
-        padding-left: 3vw;
+        /* font-size: 14px; */
+        padding-left: 2vw;
         color: #fff;
         list-style-type: none;
     }

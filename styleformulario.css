@@ -12,7 +12,7 @@
 .header{
 width: 100%;
 background-color: var(--main-footer);
-height: 75px;
+height: 12vh;
 display: flex;
 align-items: center;
 gap: 14vw;
@@ -51,7 +51,7 @@ width: 15vw;
 
 .img-logo{
 width:12vw;
-height:8vh;
+height:50px;
 border-radius: 5%;
 margin-left: 2vw;
 }

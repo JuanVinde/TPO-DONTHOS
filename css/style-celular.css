@@ -464,19 +464,19 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 15vh;
+    height: 10vh;
     background-color: var(--cfondo1);
 }
 .enlace-contacto:hover{
     background: linear-gradient(#ccc, #ddd);
 }
 .enlace-contacto > a{
+    color: #000000;
     font-family: 'Sora', sans-serif;
-    font-size: 10px;
-    line-height: 20px;
     text-decoration: none;
-    color: #000;
-    margin-left: 1vw;
+    font-size: 15px;
+    line-height: 20px;  
+    margin-left: 3vw;
 }
 .enlace-contacto> a > b{
     color: #0094da;

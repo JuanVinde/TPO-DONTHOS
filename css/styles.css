@@ -35,7 +35,7 @@ paleta donthos #57585c letra, #0094da algunos fondos, fondo #fdfeff, #f48347 bot
 
 
 background-color: var(--main-footer);
-height: 75px;
+height: 12vh;
 display: flex;
 align-items: center;
 gap: 14vw;
@@ -74,7 +74,7 @@ width: 15vw;
 
 .img-logo{
 width:12vw;
-height:8vh;
+height:50px;
 border-radius: 5%;
 margin-left: 2vw;
 }
@@ -572,7 +572,7 @@ footer{
     width: 15vw;
     height: 11vh;
     border-radius: 7px;
-    margin-top: 2vh;
+    margin-top: 2vh; 
 }
 
 .contenedor-texto-f > h4,p {

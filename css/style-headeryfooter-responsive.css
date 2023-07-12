@@ -17,7 +17,7 @@
 
 header{
 background-color: var(--main-footer);
-height: 75px;
+height: 12vh;
 display: flex;
 align-items: center;
 gap: 14vw;
@@ -56,7 +56,7 @@ width: 15vw;
 
 .img-logo{
 width:12vw;
-height:8vh;
+height:50px;
 border-radius: 5%;
 margin-left: 2vw;
 }
@@ -286,7 +286,7 @@ footer{
     
     .img-logo{
         width:12vw;
-        height:8vh;
+        /* height:8vh; */
         border-radius: 5%;
         margin-left: 4vw;
     }
@@ -344,7 +344,8 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap: 3vh;
+    gap: 2vh;
+    margin-top: 3vh;
     background-color: var(--main-footer);
 }
 
@@ -370,12 +371,12 @@ footer{
 .contenedor-redes-footer{
     display: flex;
     justify-content: space-around;
-    gap: 2vw;
+    width: 200px;
 }
 
 .contenedor-redes-footer > a >img{
-    height: 7vh;
-    width: 5vw;
+    height: 32px;
+    width: 32px;
 }
 
 .contenedor-grupo>h5{

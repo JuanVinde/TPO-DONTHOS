@@ -96,7 +96,7 @@
     
     .img-logo{
         width:12vw;
-        height:8vh;
+        /* height:8vh; */
         border-radius: 5%;
         margin-left: 4vw;
     }
@@ -202,10 +202,11 @@
         color: #000000;
     
         font-family: 'Sora', sans-serif;
+        text-align: center;
     
         font-size: 20px;
         line-height: 20px;  
-        margin-left: 3vw;
+        /* margin-left: 3vw; */
     }
     
     .unite > a > b{
@@ -460,20 +461,21 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 15vh;
+        height: 10vh;
         background-color: var(--cfondo1);
     }
     .enlace-contacto:hover{
         background: linear-gradient(#ccc, #ddd);
     }
     .enlace-contacto > a{
-        font-family: 'Sora', sans-serif;
-        font-size: 18px;
-        line-height: 20px;  
-        margin-left: 3vw;
         text-decoration: none;
-        color: #000;
-        margin-left: 1vw;
+        color: #000000;
+    
+        font-family: 'Sora', sans-serif;
+        text-align: center;
+    
+        font-size: 20px;
+        line-height: 20px;  
     }
     .enlace-contacto> a > b{
         color: #0094da;
@@ -585,8 +587,8 @@
     }
     
     .img-footer{
-        width: 30vw;
-        height: 15vh;
+        width: 15vw;
+        height: 11vh;
         border-radius: 7px;
         margin-top: 2vh;
     }
